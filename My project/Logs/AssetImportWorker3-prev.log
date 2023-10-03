@@ -221,3 +221,93 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/NightSky.png using Guid(4912fab265f1b394ba5ade17c64287ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa52109802a87517a8cab152fe17001') in 0.173617 seconds 
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 4287.
+Memory consumption went from 73.2 MB to 73.2 MB.
+Total: 59.123100 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.113700 ms MarkObjects: 58.420400 ms  DeleteObjects: 0.063000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 4287.
+Memory consumption went from 73.2 MB to 73.2 MB.
+Total: 3.770400 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.281100 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3839.465916 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Forward.png
+  artifactKey: Guid(545c84f8584145a489c2c889305f682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Forward.png using Guid(545c84f8584145a489c2c889305f682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da986cba3886a0a62514601487723c') in 0.295557 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-2.png
+  artifactKey: Guid(c001188c436385346b8c7a5797406011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-2.png using Guid(c001188c436385346b8c7a5797406011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47be89a6450a02ed1517eb94a659c9c') in 0.027432 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Sun.png
+  artifactKey: Guid(796d5c3f22f7c8742ae85606dcdaa2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Sun.png using Guid(796d5c3f22f7c8742ae85606dcdaa2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905d0f8d6d7f2dc684b4682a54d98f20') in 0.026436 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-1.png
+  artifactKey: Guid(6ef6f837792cd834aa11f0163ed98632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-1.png using Guid(6ef6f837792cd834aa11f0163ed98632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7538351ae3f88c40d089cec6b644b3db') in 0.027599 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
+  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcd106df375ff249d33f70b251334d1') in 0.032423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png
+  artifactKey: Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png using Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ebaefcb7c80fe1de3bcbf282ebcdf3') in 0.107800 seconds 
+Number of asset objects unloaded after import = 3
