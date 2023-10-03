@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62700
+Successfully changed project path to: C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1484] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 1149120505 [EditorId] 1149120505 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1484] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 1149120505 [EditorId] 1149120505 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 77.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006564 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1363ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (974ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (754ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (46.6 KB). Loaded Objects now: 4267.
+Memory consumption went from 146.6 MB to 146.6 MB.
+Total: 3.852800 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.210700 ms MarkObjects: 3.111500 ms  DeleteObjects: 0.096600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1898325.525106 seconds.
+  path: Assets/Lifty's Pixel Art Pack
+  artifactKey: Guid(130c67ed063b3224bac615dc446a0309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack using Guid(130c67ed063b3224bac615dc446a0309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2013f9c20670d3f1cef280be2c0b28') in 0.013982 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.799980 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Mushrooms.png
+  artifactKey: Guid(a45e8fc0cf9a3ec45a7ab236e11154a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Mushrooms.png using Guid(a45e8fc0cf9a3ec45a7ab236e11154a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236e3b61aa8d6ca6d426d25a6f35009f') in 0.155892 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Stal5.png
+  artifactKey: Guid(e407b71b98bac38419f0c8f3c270cc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Stal5.png using Guid(e407b71b98bac38419f0c8f3c270cc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7218606aeb62b9293dca5f9f4a311d7b') in 0.026438 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Stal2.png
+  artifactKey: Guid(d97b1e7513b95274c9a04f106c4c00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Stal2.png using Guid(d97b1e7513b95274c9a04f106c4c00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda1c6d7b0a3c6f8663ea58c3f0fab65') in 0.023630 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Web.png
+  artifactKey: Guid(9c50f50f8faabb943b9d9c0f32a79ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Web.png using Guid(9c50f50f8faabb943b9d9c0f32a79ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3033b3b287b0847c1a8d9968718d4b6') in 0.024888 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.148292 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Campfire/Campfire.png
+  artifactKey: Guid(c6d5179947f74b54ca0ac836e02498be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations/Campfire/Campfire.png using Guid(c6d5179947f74b54ca0ac836e02498be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b0bdbf81bce50fad1e1c7d2f85731') in 0.020969 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.634426 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/Cage.png
+  artifactKey: Guid(86e48a6b6b3052b459ae6b034d5bd11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/Cage.png using Guid(86e48a6b6b3052b459ae6b034d5bd11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3cbc95d59762204cd34aaeeb448c71') in 0.024578 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw1.png
+  artifactKey: Guid(c4bf9498798dbb34a83b963a38aca248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw1.png using Guid(c4bf9498798dbb34a83b963a38aca248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80111a9de170539f850d6b9a6b7c650') in 0.025858 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad4.png
+  artifactKey: Guid(b77a139d4145fec4b8d5e15a28a6767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad4.png using Guid(b77a139d4145fec4b8d5e15a28a6767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687171cbda9458202233ff9c892ea0d7') in 0.024540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad10.png
+  artifactKey: Guid(171d3ec9925c0e64b8967864c2bddcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad10.png using Guid(171d3ec9925c0e64b8967864c2bddcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c216a53483fb136ede8c688e33e82f1e') in 0.027519 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw2.png
+  artifactKey: Guid(9e70ec6426359734d954f00a96f10bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw2.png using Guid(9e70ec6426359734d954f00a96f10bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c03e9d7adff1cc90b53e20afa599d93') in 0.026488 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad6.png
+  artifactKey: Guid(9409ad274fbd7d34f944d5858c2a7ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad6.png using Guid(9409ad274fbd7d34f944d5858c2a7ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5248bd564b66a5017b52a7b62dfe91') in 0.025965 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad.png
+  artifactKey: Guid(5adaf28f41f51784f8a8a4f1d952c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad.png using Guid(5adaf28f41f51784f8a8a4f1d952c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c5676ee778c2ced78951e257c495c') in 0.028278 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw3.png
+  artifactKey: Guid(8bfa72b363d433c4c9554ecc789547c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/CircularSaw3.png using Guid(8bfa72b363d433c4c9554ecc789547c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f978fe5b7b4edfcc70cc9217fbbc5719') in 0.022621 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.881301 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png
+  artifactKey: Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png using Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02059bdf3cb9b7eb830b1cd550d72a4c') in 0.287344 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
+  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ee673e53118a85049d903bb1237074') in 0.048937 seconds 
+Number of asset objects unloaded after import = 3
