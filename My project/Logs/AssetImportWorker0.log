@@ -15,7 +15,7 @@ C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64145
+50295
 Successfully changed project path to: C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23736] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 370799065 [EditorId] 370799065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10404] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3190260724 [EditorId] 3190260724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23736] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 370799065 [EditorId] 370799065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10404] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3190260724 [EditorId] 3190260724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 96.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 590.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,93 +68,120 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008987 seconds.
+Registered in 0.198173 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 107.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  6.583 seconds
 Domain Reload Profiling:
-	ReloadAssembly (747ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (6583ms)
+		BeginReloadAssembly (4712ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (508ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (1249ms)
+			LoadAssemblies (4715ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (769ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008302 seconds.
+Registered in 1.382859 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.900 seconds
+- Completed reload, in  7.344 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1901ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (7346ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1622ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (6988ms)
+			LoadAssemblies (4742ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (733ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (1116ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1393ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (832ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (1076ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (46.4 KB). Loaded Objects now: 4267.
-Memory consumption went from 146.6 MB to 146.6 MB.
-Total: 4.263900 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.153300 ms MarkObjects: 3.554800 ms  DeleteObjects: 0.121800 ms)
+Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (46.7 KB). Loaded Objects now: 4635.
+Memory consumption went from 158.8 MB to 158.8 MB.
+Total: 5.061900 ms (FindLiveObjects: 0.605000 ms CreateObjectMapping: 0.365600 ms MarkObjects: 3.999100 ms  DeleteObjects: 0.090900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 825.159823 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 0.074993 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (21.9 KB). Loaded Objects now: 4636.
+Memory consumption went from 74.5 MB to 74.5 MB.
+Total: 7.096500 ms (FindLiveObjects: 0.679600 ms CreateObjectMapping: 0.528500 ms MarkObjects: 5.844800 ms  DeleteObjects: 0.041500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,1532 +197,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1902889.456169 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3349.747532 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Double_Jump_Dust_5.png
+  artifactKey: Guid(aea46313b0e8e3548b48534df4782a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d457b26d2bc8024e58729449d46e968') in 0.015359 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.979534 seconds.
-  path: Assets/asset map
-  artifactKey: Guid(e7e3f23a90548504387ed4ed65dd4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 13
-Start importing Assets/asset map using Guid(e7e3f23a90548504387ed4ed65dd4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c12c5be79c28772b0945b19c8e6fedb') in 0.008668 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 33.196588 seconds.
-  path: Assets/Scenes/Niveau1.unity
-  artifactKey: Guid(8325f6239c31d3a43bc8a3291d2c1b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Niveau1.unity using Guid(8325f6239c31d3a43bc8a3291d2c1b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f45c4dfbfa037e74eda4c648650afe') in 0.008501 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5430.475147 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3176550808f04eefba5341b7600182ed') in 0.160982 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 84.522719 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697b924460a2b38c256da98fa54c46f5') in 0.298959 seconds 
-Number of asset objects unloaded after import = 96
-========================================================================
-Received Import Request.
-  Time since last request: 558.852795 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7facfc32e6950f25fcef988ef45d82df') in 0.260376 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 209.993274 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee9a7423002ce8603335fdc0473147d') in 0.278727 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 25.561067 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ccd17d79c89985f6022733ad65cbf6') in 0.257325 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 8.895514 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48baf78b7075d46806793cd50c5fe98c') in 0.274795 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 111.669346 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fad490ed64c47cb401873b50d7048a') in 0.253581 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 207.890783 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1820b5d3e4d30efe64e9a9828e2cf226') in 0.258660 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 107.905702 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65a36cd8583d14c8bfb32672e354f9f') in 0.250482 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 643.141684 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690ffd24dc895330b16484315e811c92') in 0.270965 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 329.761864 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51350c619088e7605d9f858ce8f36e7') in 0.269225 seconds 
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 29.186402 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9648535321c69315bc8282c4bad638') in 0.624933 seconds 
-Number of asset objects unloaded after import = 347
-========================================================================
-Received Import Request.
-  Time since last request: 68.745189 seconds.
-  path: Assets/asset map/map 1.prefab
-  artifactKey: Guid(3ef94bceb89b83e49b638e378fef170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/map 1.prefab using Guid(3ef94bceb89b83e49b638e378fef170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefb721b3ad7504c5c6afddae24a1dbd') in 0.230450 seconds 
-Number of asset objects unloaded after import = 701
-========================================================================
-Received Import Request.
-  Time since last request: 3.987979 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_0.asset
-  artifactKey: Guid(bca4bfd26a67df74b99125381ebcb2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_0.asset using Guid(bca4bfd26a67df74b99125381ebcb2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2067a21d55c99742b457c5a3d339aea5') in 0.021655 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Double_Jump_Dust_5.png using Guid(aea46313b0e8e3548b48534df4782a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b241b9e7b97acb1a0d300f98e69bb8dd') in 0.164706 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026335 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_3.asset
-  artifactKey: Guid(51b46f32206e947438af2950e9215480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000062 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock2.png
+  artifactKey: Guid(7733fa161dc4f184da651bdcb9937b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_3.asset using Guid(51b46f32206e947438af2950e9215480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d604095c7be062acdac83b7a95c32cf') in 0.021244 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock2.png using Guid(7733fa161dc4f184da651bdcb9937b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de168abb1304e47dcd88ee171996740d') in 0.031936 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_4.asset
-  artifactKey: Guid(44063904b890c12419d369b24ae96a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000064 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk+Attack_6.png
+  artifactKey: Guid(fcd9ec307ecc6554ca9763e14262cbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_4.asset using Guid(44063904b890c12419d369b24ae96a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deff4829f2f8065b02721b5ee70734bc') in 0.015124 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_30.asset
-  artifactKey: Guid(db7aea9f469cf844592d6fdb9312dd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_30.asset using Guid(db7aea9f469cf844592d6fdb9312dd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92d7031d1e9e2eafa7516eb26e208a8') in 0.017642 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_40.asset
-  artifactKey: Guid(50cf9d2a18441db4db494917f90a8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_40.asset using Guid(50cf9d2a18441db4db494917f90a8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f1c4020f14686d5eb20f16bbdba954') in 0.018685 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_28.asset
-  artifactKey: Guid(7f44b24e9bb759f40a3764d66152ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_28.asset using Guid(7f44b24e9bb759f40a3764d66152ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ea8ee9c280d7fc49f3584ebf6fa37') in 0.018191 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_19.asset
-  artifactKey: Guid(830627763b2388947bdf2e1fcca30434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_19.asset using Guid(830627763b2388947bdf2e1fcca30434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c42c49f42058b9e440bab7cbc63fe2') in 0.015533 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_39.asset
-  artifactKey: Guid(750cf72d78102354f810bfca81e7f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_39.asset using Guid(750cf72d78102354f810bfca81e7f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dc0a0dd5f1c871142022aac3012c7e') in 0.017878 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_11.asset
-  artifactKey: Guid(2436cafc69505ab4d90b7ada3d76aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_11.asset using Guid(2436cafc69505ab4d90b7ada3d76aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c84819d5987460d27da45a23a83651b') in 0.018721 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_29.asset
-  artifactKey: Guid(49d11da00208e7c48bc03b8b0b88cbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_29.asset using Guid(49d11da00208e7c48bc03b8b0b88cbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a9bae4dc0a84c21d2f2250bfc987bc') in 0.017809 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_38.asset
-  artifactKey: Guid(7535d5ff8e69108488d0eeca3166e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_38.asset using Guid(7535d5ff8e69108488d0eeca3166e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a420a61156037ec827640ce3448c0de') in 0.019594 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk+Attack_6.png using Guid(fcd9ec307ecc6554ca9763e14262cbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57252603536eb8ce703071fe9b8e5cb') in 0.033609 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_24.asset
-  artifactKey: Guid(5f322b9bbbb563a40a3ad475987d4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Run_6.png
+  artifactKey: Guid(fd4e7ec95319ccd4a8e11de403b227fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_24.asset using Guid(5f322b9bbbb563a40a3ad475987d4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572ae84b83a62b01375ee72979bc6b8a') in 0.018465 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_18.asset
-  artifactKey: Guid(ebe0f74bc9bb0e342ba6e80a1c67e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_18.asset using Guid(ebe0f74bc9bb0e342ba6e80a1c67e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9ade9dcc558dd4bc04d90a8cbac5fd') in 0.020475 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_35.asset
-  artifactKey: Guid(086c6fbf8cb235c4b83ef03ce487359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_35.asset using Guid(086c6fbf8cb235c4b83ef03ce487359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa8c73517bfa032d1091745e68d45f') in 0.021601 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_13.asset
-  artifactKey: Guid(7842f0b1bc325fa43bb6aeb2c40b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_13.asset using Guid(7842f0b1bc325fa43bb6aeb2c40b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f7d3e3a593976e19df80fe9d0619c') in 0.020942 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_26.asset
-  artifactKey: Guid(b43eaa3550f3fb2479f7f8a1267c6da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_26.asset using Guid(b43eaa3550f3fb2479f7f8a1267c6da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb04e7d9e4063661c287b8386811f64') in 0.018453 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_31.asset
-  artifactKey: Guid(dc1f5f5a77900e04984db451878a2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_31.asset using Guid(dc1f5f5a77900e04984db451878a2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f3380e809f68ebec7d50543b7306a5') in 0.018395 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_21.asset
-  artifactKey: Guid(68f3ea112c402974f957196b8b1a7483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_21.asset using Guid(68f3ea112c402974f957196b8b1a7483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98df2d76f4d7027835e2d0eaee38703') in 0.018873 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_17.asset
-  artifactKey: Guid(4a454149f13679e4fa0486ca6e8704c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_17.asset using Guid(4a454149f13679e4fa0486ca6e8704c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e0471700b7a6884cbf92bc17cdbd85') in 0.017986 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_7.asset
-  artifactKey: Guid(4a1ba353173c6f740a769f48c2868bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_7.asset using Guid(4a1ba353173c6f740a769f48c2868bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581dbd7745dc070ad96ff6308420f517') in 0.017673 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_34.asset
-  artifactKey: Guid(d746230b5ffa29843bda37860e7527f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_34.asset using Guid(d746230b5ffa29843bda37860e7527f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f834747b3784572e92b845b49ee06b0c') in 0.017633 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_37.asset
-  artifactKey: Guid(fac036270c7ed524f809197c98bae1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_37.asset using Guid(fac036270c7ed524f809197c98bae1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f00010d0cf2a1e3f61366a3e6d02dac') in 0.017256 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_20.asset
-  artifactKey: Guid(e4d15b3e5a3ec6c4cb2696f108ad211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_20.asset using Guid(e4d15b3e5a3ec6c4cb2696f108ad211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e787fb9e8535b002012f0edbb3702a') in 0.020866 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_16.asset
-  artifactKey: Guid(b5380176e4986d74dacd52d3af819ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_16.asset using Guid(b5380176e4986d74dacd52d3af819ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658796d53c837f1182b9f2811a54c09f') in 0.019308 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_8.asset
-  artifactKey: Guid(7f54551b0bcdde94b9cab59d67123b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_8.asset using Guid(7f54551b0bcdde94b9cab59d67123b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad79e2c733678835e6e058904eb8be0c') in 0.018283 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_12.asset
-  artifactKey: Guid(3b3d076275c472642883a96f53b294a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_12.asset using Guid(3b3d076275c472642883a96f53b294a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fda331213e7ed7b9c642e844d621700') in 0.018293 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.300016 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_41.asset
-  artifactKey: Guid(b637481670b04c442b53ed311ef95388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_41.asset using Guid(b637481670b04c442b53ed311ef95388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3d452dfeff387dbf72083f9885a569') in 0.015919 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_49.asset
-  artifactKey: Guid(4cd295f7d15ef5d49bd8c7a392245ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_49.asset using Guid(4cd295f7d15ef5d49bd8c7a392245ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12819e561d6ef01d930faf6eb5614ab') in 0.014707 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_75.asset
-  artifactKey: Guid(420dfa3d3be27474e93c7a3ae97da2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_75.asset using Guid(420dfa3d3be27474e93c7a3ae97da2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb6e7ef968c9a9ea200afca55100596') in 0.017484 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_83.asset
-  artifactKey: Guid(bdb0a769fd679e04a9f0ef2e1238355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_83.asset using Guid(bdb0a769fd679e04a9f0ef2e1238355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0e2c584f15a96ac7b03515ac9a6251') in 0.016769 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_116.asset
-  artifactKey: Guid(6637175aec2802343b8089348bfe9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_116.asset using Guid(6637175aec2802343b8089348bfe9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97efd73cef477cd907774f6442e7017') in 0.015907 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_117.asset
-  artifactKey: Guid(71656a26c1a602340953b91f8ff63c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_117.asset using Guid(71656a26c1a602340953b91f8ff63c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906f6a9e328cd53f6f9fc3583f50f064') in 0.015861 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_169.asset
-  artifactKey: Guid(4f1c6c4d332d334439dc2c3903f8c5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_169.asset using Guid(4f1c6c4d332d334439dc2c3903f8c5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3eae83d27ef91e2b34441bf8b2b270') in 0.014664 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_138.asset
-  artifactKey: Guid(dc8733c72460607469748e69010d42d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_138.asset using Guid(dc8733c72460607469748e69010d42d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df94afc68bd9f0201c976001f2841161') in 0.016248 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_161.asset
-  artifactKey: Guid(43a302bba101c934198f912561c640a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_161.asset using Guid(43a302bba101c934198f912561c640a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17592ccf7e58f26c56e39a26a197832c') in 0.016486 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_121.asset
-  artifactKey: Guid(87180402fbd740e45bcda94e2a048fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_121.asset using Guid(87180402fbd740e45bcda94e2a048fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc148e8cf81207669ad2fbd79eb19403') in 0.016408 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_45.asset
-  artifactKey: Guid(3517042f6095e4e4d9b4183119ed04e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_45.asset using Guid(3517042f6095e4e4d9b4183119ed04e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9ad563fae2fd1f0c94dc33da718978') in 0.014972 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_237.asset
-  artifactKey: Guid(3ad39ad8b560c664084d54dcd47de622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_237.asset using Guid(3ad39ad8b560c664084d54dcd47de622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec9a90f2bb01080184c3678f643140') in 0.017185 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_239.asset
-  artifactKey: Guid(da92874fa2be6bf428f5ac5b21c3cccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_239.asset using Guid(da92874fa2be6bf428f5ac5b21c3cccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c555b92a220781356503c7d7835e37b6') in 0.016204 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_119.asset
-  artifactKey: Guid(a5c34d8689b2b0c419fea24d6695bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_119.asset using Guid(a5c34d8689b2b0c419fea24d6695bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb5e090a3e553ce6293fe2804969820') in 0.016024 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_190.asset
-  artifactKey: Guid(f103b540cfccf84428b112158ad40797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_190.asset using Guid(f103b540cfccf84428b112158ad40797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36734a86f45ec6bee511bbd0239e7f') in 0.017093 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_233.asset
-  artifactKey: Guid(13f17fdfcd865694a988b85958654ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_233.asset using Guid(13f17fdfcd865694a988b85958654ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d854f8cbcaa511eeadf5b54c66dc9db') in 0.019251 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_58.asset
-  artifactKey: Guid(740466988e2a8bb4fb72785e428487eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_58.asset using Guid(740466988e2a8bb4fb72785e428487eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c605a327400380f92b7c1b0484945bad') in 0.017874 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Run_6.png using Guid(fd4e7ec95319ccd4a8e11de403b227fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756b12591040ed9e053c2bd2b64f18bb') in 0.031573 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_82.asset
-  artifactKey: Guid(1da452317e6b86849a89ca10fb9c0260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png
+  artifactKey: Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_82.asset using Guid(1da452317e6b86849a89ca10fb9c0260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1e014cb699e3558439bdc9a33cb463') in 0.015303 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png using Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fee258f47c00ead89183382278c1f3') in 0.035142 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_57.asset
-  artifactKey: Guid(4d073791500ef894eaa19aa0536dc4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000031 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png
+  artifactKey: Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_57.asset using Guid(4d073791500ef894eaa19aa0536dc4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2424c02e1661a5c31923349296cc7917') in 0.016473 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_129.asset
-  artifactKey: Guid(773754ccd8531c44da3837965c4db86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_129.asset using Guid(773754ccd8531c44da3837965c4db86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f44f811f60f66059613170663bafa8') in 0.015394 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_165.asset
-  artifactKey: Guid(66a072fc49f7fb4408f69273b230706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_165.asset using Guid(66a072fc49f7fb4408f69273b230706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee51f4f4d59827b7e44ae066d45eeb48') in 0.015875 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_166.asset
-  artifactKey: Guid(e9ea1bdf6a88c994986dc9274701bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_166.asset using Guid(e9ea1bdf6a88c994986dc9274701bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7689e36d28c9cc463052b35317a186') in 0.017503 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_242.asset
-  artifactKey: Guid(097373bf7a9cf364ebabf48683b6d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_242.asset using Guid(097373bf7a9cf364ebabf48683b6d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f482d61e7956faea699ca1696ffc4eff') in 0.016848 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_248.asset
-  artifactKey: Guid(3be9a967262cadd459fe85145275a313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_248.asset using Guid(3be9a967262cadd459fe85145275a313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31facb504b91d4640c52c30cecf0c15') in 0.017593 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_228.asset
-  artifactKey: Guid(091394aa334aaee4f83c1913e9e0088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_228.asset using Guid(091394aa334aaee4f83c1913e9e0088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee4eef1e21085cc7c0f3f7eff849a5a') in 0.017558 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_88.asset
-  artifactKey: Guid(61fa0369ca7081745bac018b46919e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_88.asset using Guid(61fa0369ca7081745bac018b46919e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaac97374cc2f2adc6442822a453a538') in 0.017039 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_249.asset
-  artifactKey: Guid(4b76f6ccb0838e8489e5ea5fd558bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_249.asset using Guid(4b76f6ccb0838e8489e5ea5fd558bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffc5349febcdd91f04d33f150aad41c') in 0.016846 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_160.asset
-  artifactKey: Guid(28f514fc56a26554c9efc04c7c334c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_160.asset using Guid(28f514fc56a26554c9efc04c7c334c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7162ecfac6f08922aaea8aa9fc45836') in 0.016722 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_214.asset
-  artifactKey: Guid(e799cb4a66eae394e84b2caa45dc35ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_214.asset using Guid(e799cb4a66eae394e84b2caa45dc35ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce2cc677178b98f533ab38838f944ee') in 0.016593 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_256.asset
-  artifactKey: Guid(9c9714bb5136ed54581de8583280b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_256.asset using Guid(9c9714bb5136ed54581de8583280b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f861726111da14fef28c3396c0fa89fa') in 0.015988 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_259.asset
-  artifactKey: Guid(d688447e35457ea4f97bea28bc7c148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_259.asset using Guid(d688447e35457ea4f97bea28bc7c148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febdd509be78cf6244cc7b32c8ea55f') in 0.016146 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_174.asset
-  artifactKey: Guid(f1020fc622cabd6458e242e5502879e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_174.asset using Guid(f1020fc622cabd6458e242e5502879e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1bbbac7a5f2a47df17aab6d9c12399') in 0.016050 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_261.asset
-  artifactKey: Guid(e9221222fbcc3b14e83ab2292e57eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_261.asset using Guid(e9221222fbcc3b14e83ab2292e57eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1084452d679b4cbc8a5ff8f0b60c9d43') in 0.016613 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_193.asset
-  artifactKey: Guid(86cde78872f645446800cd24550b43e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_193.asset using Guid(86cde78872f645446800cd24550b43e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eca247b886cbf8ebbb5b04c058c0083') in 0.016398 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_272.asset
-  artifactKey: Guid(83e774832e7744f4594755101011a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_272.asset using Guid(83e774832e7744f4594755101011a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7db90ba8986d93e9b3012e99aba87a') in 0.016934 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_71.asset
-  artifactKey: Guid(0ed0bfc429f3ccd4fb2a87185e08cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_71.asset using Guid(0ed0bfc429f3ccd4fb2a87185e08cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0e8bace885e377b6d35fda45d1a90') in 0.016805 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_195.asset
-  artifactKey: Guid(07fb45af3ea2a0b4e83d101397d54fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_195.asset using Guid(07fb45af3ea2a0b4e83d101397d54fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80841f69684f6e6a3a0beaeda5907e9') in 0.016957 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_114.asset
-  artifactKey: Guid(d88ff94d62fe9cc4da2edc35a4f3b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_114.asset using Guid(d88ff94d62fe9cc4da2edc35a4f3b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000aa630de74a939a8a0203b8018cfcc') in 0.016285 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_175.asset
-  artifactKey: Guid(31764f95dac71ef43b48fe1a1ebc9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_175.asset using Guid(31764f95dac71ef43b48fe1a1ebc9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0d28357ed70e76a4d539b0acc6fc3e') in 0.015588 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_127.asset
-  artifactKey: Guid(19588d53b2d317442887a18caa23e954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_127.asset using Guid(19588d53b2d317442887a18caa23e954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9383ef54d2520ea228b4f63bf34a2c52') in 0.017685 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_182.asset
-  artifactKey: Guid(66edb532d5f20b04199d01489f7aebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_182.asset using Guid(66edb532d5f20b04199d01489f7aebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b716427296d9b0b03a5d00eb8d5fbe72') in 0.016563 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_238.asset
-  artifactKey: Guid(be7a82fc61b76e64abbd646ad483a197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_238.asset using Guid(be7a82fc61b76e64abbd646ad483a197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2296ff127c45fd3846f109645dfd9bd2') in 0.015983 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_140.asset
-  artifactKey: Guid(bcd506d454f94cd4e8c61f470c7e77d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_140.asset using Guid(bcd506d454f94cd4e8c61f470c7e77d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6cd1a60351d4794ad7d19776aebcc') in 0.018454 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_122.asset
-  artifactKey: Guid(6047f8f7bc616e44497a700a6abc7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_122.asset using Guid(6047f8f7bc616e44497a700a6abc7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15270f5dd2909c41390f982e6ce105c') in 0.015617 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_273.asset
-  artifactKey: Guid(73a44619b61e6704c85f4bfc68d85df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_273.asset using Guid(73a44619b61e6704c85f4bfc68d85df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1357d5a6d19278f232a30fd251cf9079') in 0.015128 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_118.asset
-  artifactKey: Guid(b96936505590b56489a43e9f07962bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_118.asset using Guid(b96936505590b56489a43e9f07962bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766dd71bc7972a1a2638203b1662b6c') in 0.016967 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_103.asset
-  artifactKey: Guid(c767a3ac33678194ea82d82d2c270f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_103.asset using Guid(c767a3ac33678194ea82d82d2c270f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc29a6c000466bdf56b9e5867d92fde') in 0.015851 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_219.asset
-  artifactKey: Guid(af01e42d4c7bc394d805df2756bfbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_219.asset using Guid(af01e42d4c7bc394d805df2756bfbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bd58a0fd70f8848d0b58a9bdcbf613') in 0.016433 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_217.asset
-  artifactKey: Guid(b7abdbc34e6cb8d48a5d43cb54d32d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_217.asset using Guid(b7abdbc34e6cb8d48a5d43cb54d32d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc7a30590710f4c455067834bcaa03') in 0.017035 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_292.asset
-  artifactKey: Guid(a706b5c45126fa94294febddf957b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_292.asset using Guid(a706b5c45126fa94294febddf957b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f2290413914f8db585fed3cace5bac') in 0.015419 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_289.asset
-  artifactKey: Guid(8e98f42cc84f2624f93aea21732c57f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_289.asset using Guid(8e98f42cc84f2624f93aea21732c57f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5eb4e432f0577edb787cb7fd03dd3b') in 0.016907 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_315.asset
-  artifactKey: Guid(dd410b4a82c76dd4bab22220801f4068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_315.asset using Guid(dd410b4a82c76dd4bab22220801f4068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3ea3ba5bac672f286caf07527bf41d') in 0.016892 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_305.asset
-  artifactKey: Guid(9e594bd8c8c7a4b4688554c0274f8a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_305.asset using Guid(9e594bd8c8c7a4b4688554c0274f8a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75ff444c2c749accbfddff4ed27a74e') in 0.015202 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_333.asset
-  artifactKey: Guid(8f9f1c215adf57e41b7f6d99a1665bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_333.asset using Guid(8f9f1c215adf57e41b7f6d99a1665bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c8a56fcf92f3af86b79fae213b0240') in 0.015693 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_323.asset
-  artifactKey: Guid(302126433bed1e34b9e86b01fbbd929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_323.asset using Guid(302126433bed1e34b9e86b01fbbd929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d751c7a75f44e2196c17bd273c414d') in 0.016627 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_334.asset
-  artifactKey: Guid(151afb0b9bf8c4a449c1456c3e6cc56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_334.asset using Guid(151afb0b9bf8c4a449c1456c3e6cc56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafafe6baaf68c07f41f0dfd6c20cad9') in 0.018007 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_303.asset
-  artifactKey: Guid(bdd411e82e4421947b3c1a56af4ed11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_303.asset using Guid(bdd411e82e4421947b3c1a56af4ed11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01d021692ca3de9d0496028e5c351c4') in 0.018343 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_294.asset
-  artifactKey: Guid(842ddaf552b96cb4da1bfeeb2698aeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_294.asset using Guid(842ddaf552b96cb4da1bfeeb2698aeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2330b75be1b5d90f539d008de0b60f61') in 0.016666 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_281.asset
-  artifactKey: Guid(30afebc6c247ef8439009c0a69b0d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_281.asset using Guid(30afebc6c247ef8439009c0a69b0d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b349ed612d03f059b6685eaaf92f72') in 0.017110 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_320.asset
-  artifactKey: Guid(3cb8076baa87c984a812e36240fa687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_320.asset using Guid(3cb8076baa87c984a812e36240fa687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a434fd07b98eb1a4cbb5fb845587c86e') in 0.017900 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_284.asset
-  artifactKey: Guid(38f5fcea91c44a146beca63ef449775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_284.asset using Guid(38f5fcea91c44a146beca63ef449775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e57ad82b158db38c9006c302332948') in 0.016194 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_291.asset
-  artifactKey: Guid(ed8f6008b5cead84b9707f83f173e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_291.asset using Guid(ed8f6008b5cead84b9707f83f173e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69570d4e3db047c3382c5fbb1f019b0') in 0.017064 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_329.asset
-  artifactKey: Guid(9e8f1ca61c6380147bab784380226dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_329.asset using Guid(9e8f1ca61c6380147bab784380226dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699548d46d169774dcf3a9c35786dc3b') in 0.019135 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_287.asset
-  artifactKey: Guid(efb1171630237fa42a2beda6be27b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_287.asset using Guid(efb1171630237fa42a2beda6be27b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a167f327ce5c4c3bfd524adebaa6c59') in 0.016646 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_186.asset
-  artifactKey: Guid(813b1f3453640d044a4126ae20fce118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_186.asset using Guid(813b1f3453640d044a4126ae20fce118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05025852aa6183f843ffd4f6a00ade6') in 0.017053 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_101.asset
-  artifactKey: Guid(085ce05c6575ec740b48becc7095c7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_101.asset using Guid(085ce05c6575ec740b48becc7095c7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1dac6083964b806c6a1bfc5f07004f') in 0.018219 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_297.asset
-  artifactKey: Guid(561c2214ac94b714db73b11cc1b0f359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_297.asset using Guid(561c2214ac94b714db73b11cc1b0f359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba384489e4e43f999d21c421b54851f3') in 0.018449 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_277.asset
-  artifactKey: Guid(c6a9becda79d96b48a865c9643698e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_277.asset using Guid(c6a9becda79d96b48a865c9643698e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a4f7c8a3e000cf806a0401801accf0') in 0.015702 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_209.asset
-  artifactKey: Guid(5fb53d6ee37188c4db84fbf6579949c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_209.asset using Guid(5fb53d6ee37188c4db84fbf6579949c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5992ef3a90df8085dc290d15840bd1f4') in 0.018731 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_230.asset
-  artifactKey: Guid(424b216daa487c94f93c517e0a2c8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_230.asset using Guid(424b216daa487c94f93c517e0a2c8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69407beac050dd364bc930debd7f6ca5') in 0.017025 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_269.asset
-  artifactKey: Guid(73ca2f1bd5f313f4abc769fdf41c7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_269.asset using Guid(73ca2f1bd5f313f4abc769fdf41c7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e324ad1c1e6fc174ed39dcaf420879') in 0.016757 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_254.asset
-  artifactKey: Guid(d2dd17b4b02da4346a45e6a15701ea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_254.asset using Guid(d2dd17b4b02da4346a45e6a15701ea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbc98ec1ac9b16e06b4ba8f30d84e5b') in 0.017232 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_278.asset
-  artifactKey: Guid(3b919940241d7484b8f9b281653f8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_278.asset using Guid(3b919940241d7484b8f9b281653f8c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990163d5cffdeae1ebf04a8e522da426') in 0.017972 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_298.asset
-  artifactKey: Guid(90405ae31e7e8bc4c87a77ff2a775a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_298.asset using Guid(90405ae31e7e8bc4c87a77ff2a775a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a49773ff2dbb3cf045c86e40d8508fc') in 0.017081 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_170.asset
-  artifactKey: Guid(21fd645c0fbf65d4eb7380068aab325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_170.asset using Guid(21fd645c0fbf65d4eb7380068aab325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e03bded0884b4b52ef3866b9a46b4') in 0.017907 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_128.asset
-  artifactKey: Guid(8c1bd56c982498f4b9b2630ab7739185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_128.asset using Guid(8c1bd56c982498f4b9b2630ab7739185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb6684e1a551130cb5920e52716e5f2') in 0.016916 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_224.asset
-  artifactKey: Guid(61ea63052178ff947b81d9cc785124cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_224.asset using Guid(61ea63052178ff947b81d9cc785124cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a8b11655b0116917c8045e2f94ddff') in 0.017879 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png using Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fed54e0d6e65ff65dfb9bf1f99da43b') in 0.036487 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_211.asset
-  artifactKey: Guid(8baaf4f67b0b90f44a1238efdf42d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png
+  artifactKey: Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_211.asset using Guid(8baaf4f67b0b90f44a1238efdf42d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ae607101a5fb659f7ba27a663fa85') in 0.018299 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_299.asset
-  artifactKey: Guid(10fb4ede33aa035418ad1e17381e0e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_299.asset using Guid(10fb4ede33aa035418ad1e17381e0e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5001ba7be812fd96e9ab9483fa23f8ee') in 0.016944 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_61.asset
-  artifactKey: Guid(168b7218c7085294d94f41f25f7790f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_61.asset using Guid(168b7218c7085294d94f41f25f7790f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7b2595672d2e7b06cb5e12ff4a825c') in 0.016611 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_90.asset
-  artifactKey: Guid(fcfc191d2ee750d498a801975fb5564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_90.asset using Guid(fcfc191d2ee750d498a801975fb5564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb87f9b0d461fd1402ce310d33140ced') in 0.016814 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_197.asset
-  artifactKey: Guid(2e21f3b0647292048a7b76e6b1889794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_197.asset using Guid(2e21f3b0647292048a7b76e6b1889794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5194e0a1d3a7e1599d02a5ad8f8c3583') in 0.017613 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_78.asset
-  artifactKey: Guid(be15d1e7a79e9b343984e0581c8bf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_78.asset using Guid(be15d1e7a79e9b343984e0581c8bf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf159c7a97a97ddfb0f7d73f4c1f4fb') in 0.015983 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_59.asset
-  artifactKey: Guid(fb4a13aa95e7fbc48970ff071c2c6207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_59.asset using Guid(fb4a13aa95e7fbc48970ff071c2c6207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a771e96c888aea661d20608652a540b5') in 0.016658 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_304.asset
-  artifactKey: Guid(8c214f6a8b716f34682c05a36f5139e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_304.asset using Guid(8c214f6a8b716f34682c05a36f5139e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cf8bed26d026f732f0b34dcb38289e') in 0.016832 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_275.asset
-  artifactKey: Guid(2044f2f9587bd7f40883d66ec6b3b1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_275.asset using Guid(2044f2f9587bd7f40883d66ec6b3b1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690d85fa37a86dc96ed78fa2e1dfb59e') in 0.016275 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_302.asset
-  artifactKey: Guid(786245c9fc58b3c4582af33e7b4261b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_302.asset using Guid(786245c9fc58b3c4582af33e7b4261b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd861d2b475efaf001c2ddb2c4af48087') in 0.014612 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_336.asset
-  artifactKey: Guid(117175865d77fd545aaa87dd6b2aa069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_336.asset using Guid(117175865d77fd545aaa87dd6b2aa069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b742a4944309df967b29dcf6c0e41') in 0.017674 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_307.asset
-  artifactKey: Guid(01cbc9dcb3aac3242bec2a35ea7301b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_307.asset using Guid(01cbc9dcb3aac3242bec2a35ea7301b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95849753121aa3f1de21d2dafa6c10bd') in 0.018172 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_271.asset
-  artifactKey: Guid(2a4a7f65abbc9ef4c83050e4bbba02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_271.asset using Guid(2a4a7f65abbc9ef4c83050e4bbba02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1a05cf80104e196d81e0603c5ed52') in 0.015829 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_290.asset
-  artifactKey: Guid(b562883d40862a44b86154a6a552825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_290.asset using Guid(b562883d40862a44b86154a6a552825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0b718865bb249e55c15aef140cf7e') in 0.017169 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_198.asset
-  artifactKey: Guid(32b9958a280ea4d49a7dccf1df631e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_198.asset using Guid(32b9958a280ea4d49a7dccf1df631e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd664d38c9e92c624862ddd7dfcb5c19a') in 0.018545 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_63.asset
-  artifactKey: Guid(c0e4ee45fc098f14a84343da62692481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_63.asset using Guid(c0e4ee45fc098f14a84343da62692481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93155206c58c7c56d7cc31905db97d8') in 0.019197 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_189.asset
-  artifactKey: Guid(dc42bba253101b4439efecea2a4707e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_189.asset using Guid(dc42bba253101b4439efecea2a4707e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ac49565814663a41b3011872944541') in 0.017679 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_236.asset
-  artifactKey: Guid(eae5dae37781e7f44b0faeeda3b7ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_236.asset using Guid(eae5dae37781e7f44b0faeeda3b7ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f472d855c95f1e01529bfdd7fa3ca80b') in 0.017662 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_73.asset
-  artifactKey: Guid(edcdb6d1513e34c49b47369385a5e8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_73.asset using Guid(edcdb6d1513e34c49b47369385a5e8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f758691b06128e11c1f4c451636649') in 0.020046 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png using Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d7258616953928774a88a38d532ef') in 0.034104 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_81.asset
-  artifactKey: Guid(0b68044766721b3449c91bb197f25a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png
+  artifactKey: Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_81.asset using Guid(0b68044766721b3449c91bb197f25a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0238608608d8c0e9f48ecfb6fa1e5b8b') in 0.018411 seconds 
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png using Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ece8a02cf878eb8bff53998481f88de') in 0.033983 seconds 
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_100.asset
-  artifactKey: Guid(357e1af266f19034f93f4c91ecda8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_100.asset using Guid(357e1af266f19034f93f4c91ecda8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f1e632b4a00b48fc07207ced9bff62') in 0.016563 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_247.asset
-  artifactKey: Guid(fc37de35312e1bb42a18f907eb13f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_247.asset using Guid(fc37de35312e1bb42a18f907eb13f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8137a52eba882bb29d4f17a053de425') in 0.018309 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_342.asset
-  artifactKey: Guid(d717589e1ef90c44e96ec1e86f5c7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_342.asset using Guid(d717589e1ef90c44e96ec1e86f5c7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eb071fa110c32bb6b23977cd091c40') in 0.018021 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_109.asset
-  artifactKey: Guid(076beb65a9cd4804290bc3bc9f4353a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_109.asset using Guid(076beb65a9cd4804290bc3bc9f4353a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f27efeeadf8fadc3e12666f72ce523f') in 0.016746 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_255.asset
-  artifactKey: Guid(f588ec8e1d7655442a69c9353f3eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_255.asset using Guid(f588ec8e1d7655442a69c9353f3eff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72d98ccebb3b5d13256779f20ebb19') in 0.017463 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_43.asset
-  artifactKey: Guid(193b60e54340dc3408b07c665b384d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_43.asset using Guid(193b60e54340dc3408b07c665b384d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60aca5dbd9f573f44f9cf6c30a34af91') in 0.013923 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_262.asset
-  artifactKey: Guid(c978d6b22366eb947a88218487bb96e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_262.asset using Guid(c978d6b22366eb947a88218487bb96e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ed520945011556340d80a306e0cbce') in 0.015815 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_338.asset
-  artifactKey: Guid(768b2cabb88650547ac96675bfcf4702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_338.asset using Guid(768b2cabb88650547ac96675bfcf4702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32625ab68ac62355b2a128ac965e403c') in 0.019899 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_216.asset
-  artifactKey: Guid(d3d70397ac5fd1f40bf2f149bad17ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_216.asset using Guid(d3d70397ac5fd1f40bf2f149bad17ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca3da9488cc79fc50200e05bc0f2743') in 0.014671 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_54.asset
-  artifactKey: Guid(eb83a8c5708c1ae4a8bf1a813c709226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_54.asset using Guid(eb83a8c5708c1ae4a8bf1a813c709226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5f6f12614eccd8c99bd8c9cb7fa629') in 0.016946 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_274.asset
-  artifactKey: Guid(0f8076f4d372c834895eb9776767f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_274.asset using Guid(0f8076f4d372c834895eb9776767f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc2166a7abbf9bcc190353373fbfe1') in 0.018906 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_245.asset
-  artifactKey: Guid(67bc5582691c3cd4d9b067131c330888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_245.asset using Guid(67bc5582691c3cd4d9b067131c330888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24747504827085cdd990837456c13aa5') in 0.017601 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_74.asset
-  artifactKey: Guid(5755c66d76500b64bb8b9f0fc0d8a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_74.asset using Guid(5755c66d76500b64bb8b9f0fc0d8a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb98c0c9f1f3a319e5b71a6efbace4b') in 0.016448 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_172.asset
-  artifactKey: Guid(292bed4c8854a994ea070d663b48914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_172.asset using Guid(292bed4c8854a994ea070d663b48914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ae9dc070a5cc736dd13325434514c7') in 0.018041 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_316.asset
-  artifactKey: Guid(a58cebe42eff255429a8c420f7a3816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_316.asset using Guid(a58cebe42eff255429a8c420f7a3816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffa4b84eb2afea7e64ef7cc293dd6d8') in 0.017512 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_285.asset
-  artifactKey: Guid(f5656725485a3444080779918b324b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_285.asset using Guid(f5656725485a3444080779918b324b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4bd59006b11c312b6a5299a30e1fb') in 0.015494 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_222.asset
-  artifactKey: Guid(806791ac22fdfc84abeca4890d8c2f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_222.asset using Guid(806791ac22fdfc84abeca4890d8c2f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38defd917a5cbd933aef57ee3bc22dea') in 0.017301 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_337.asset
-  artifactKey: Guid(0b2f2b61a0277744f895b484b7e65bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_337.asset using Guid(0b2f2b61a0277744f895b484b7e65bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bfdd4cc245f4ec6af3098c2f58c074') in 0.015898 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_212.asset
-  artifactKey: Guid(ad4a227721653a64a9f43b3117acb044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_212.asset using Guid(ad4a227721653a64a9f43b3117acb044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f36239e71087be1d25729152b3af4f') in 0.015741 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_113.asset
-  artifactKey: Guid(ffb8bf7040ca9ce4b9c0bd965468b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_113.asset using Guid(ffb8bf7040ca9ce4b9c0bd965468b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b933b2ef37aeb79aae81f6acf33110') in 0.015946 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_339.asset
-  artifactKey: Guid(f6f2e0a2480f8a741ac95bcdca035d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_339.asset using Guid(f6f2e0a2480f8a741ac95bcdca035d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a527d7dfe204a33dab910f5fea7484') in 0.016933 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_131.asset
-  artifactKey: Guid(6553e6f5e55175742859812b3e12962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_131.asset using Guid(6553e6f5e55175742859812b3e12962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d0c12da79bfcb385e9bc265ecc4983') in 0.015986 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_263.asset
-  artifactKey: Guid(86e5121b458f4914b9201e3f0af61f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_263.asset using Guid(86e5121b458f4914b9201e3f0af61f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216fff22a2166e8fe17c720fe85f2402') in 0.016425 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_115.asset
-  artifactKey: Guid(47a3bd007f44aaa4f8fe6ef935cdab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_115.asset using Guid(47a3bd007f44aaa4f8fe6ef935cdab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e370a50e770a6934eb70588a9c3735') in 0.017434 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_283.asset
-  artifactKey: Guid(b565f1948025385449ec4e06e8ce0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_283.asset using Guid(b565f1948025385449ec4e06e8ce0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c7ed928ac0b9d00aa1e39fa81df471') in 0.016214 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_234.asset
-  artifactKey: Guid(35ca5c34271d484419856cfd53f854dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_234.asset using Guid(35ca5c34271d484419856cfd53f854dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc3b1e990b83d14e5ff230d21f6bf5') in 0.015961 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_204.asset
-  artifactKey: Guid(8f69223c9180dfa4db8ae940b8ca4099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_204.asset using Guid(8f69223c9180dfa4db8ae940b8ca4099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7337f5fdd04487e0e0e160ef76e99102') in 0.016529 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_295.asset
-  artifactKey: Guid(fe56142d7218fa447b2b72490b606ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_295.asset using Guid(fe56142d7218fa447b2b72490b606ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a3608306a44affdbcfa680f307753') in 0.015890 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_163.asset
-  artifactKey: Guid(6e34884635fdfaa4d80ef37c5a7205fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_163.asset using Guid(6e34884635fdfaa4d80ef37c5a7205fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4aba7bd0b205d0550d520f8fc77f9f') in 0.017209 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_112.asset
-  artifactKey: Guid(7cf21d4facf2c8a4bb5f9d9815703c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_112.asset using Guid(7cf21d4facf2c8a4bb5f9d9815703c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dba180faf6d2332aaf32eb473e4076') in 0.014044 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_67.asset
-  artifactKey: Guid(6f7637d0cbed74141a553b51bacd29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_67.asset using Guid(6f7637d0cbed74141a553b51bacd29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fb2fca157cb865660e291827805d1') in 0.017414 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_207.asset
-  artifactKey: Guid(18944a7a3d1261948894d59d9326096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_207.asset using Guid(18944a7a3d1261948894d59d9326096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256a3e6e146e297b80919f6e7c7550e7') in 0.016190 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_136.asset
-  artifactKey: Guid(f80d7dbbd76590f49ab499e9ba85a872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_136.asset using Guid(f80d7dbbd76590f49ab499e9ba85a872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9a78bee3d80f689c70334e98c6352e') in 0.014847 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_332.asset
-  artifactKey: Guid(91258d73e40922545bb6adcbfae131f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_332.asset using Guid(91258d73e40922545bb6adcbfae131f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af76aee08abb634ea8d41bd08e77275') in 0.013781 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_308.asset
-  artifactKey: Guid(462fea99da2e97e4db1c4721ac34cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_308.asset using Guid(462fea99da2e97e4db1c4721ac34cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa593f5dc21fe13fbdfda01b3e7daa6') in 0.015904 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_330.asset
-  artifactKey: Guid(300189b41496cfe4a896ce93a13ccd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_330.asset using Guid(300189b41496cfe4a896ce93a13ccd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e91a2c2a691c963453d24746e3215e') in 0.015558 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_279.asset
-  artifactKey: Guid(8b088611286f61843bed48af688787b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_279.asset using Guid(8b088611286f61843bed48af688787b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4173a81f445dca7d1809b56afd80fc2d') in 0.016951 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_176.asset
-  artifactKey: Guid(3d422e7b0f1450443a0e60cef29e9110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_176.asset using Guid(3d422e7b0f1450443a0e60cef29e9110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e58350b466b46abc2ec39d0b66dab83') in 0.017379 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_296.asset
-  artifactKey: Guid(96571cb01daf906429afe2beb6412b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_296.asset using Guid(96571cb01daf906429afe2beb6412b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddabd5c23a63599d5201d7cdc73a1a1b') in 0.017409 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_55.asset
-  artifactKey: Guid(832ba29ae04dd6b419d5675eb02cda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_55.asset using Guid(832ba29ae04dd6b419d5675eb02cda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c32165a992b9fb77973b47ed993b85') in 0.015664 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_265.asset
-  artifactKey: Guid(b70e5b919f208d344a5d489fdb9c386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_265.asset using Guid(b70e5b919f208d344a5d489fdb9c386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa51613aaa8c990ad5dcc3c39eed4343') in 0.016306 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.661585 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_150.asset
-  artifactKey: Guid(cc10bcecc0a269747b4579267d3b594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_150.asset using Guid(cc10bcecc0a269747b4579267d3b594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b203bae163f15e6e98e29e0c9e4605fa') in 0.015940 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_157.asset
-  artifactKey: Guid(bca7b2b2d95e8be448d233ae47865af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_157.asset using Guid(bca7b2b2d95e8be448d233ae47865af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb8d9d4922fb8da5b223a7a686b0537') in 0.017345 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_97.asset
-  artifactKey: Guid(184a795cee5790748a931020613e0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_97.asset using Guid(184a795cee5790748a931020613e0790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac3f358579b642634bd1e65f5139a5') in 0.015290 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_94.asset
-  artifactKey: Guid(f8cb4e2fc39c73b409c54d9b0d7b510a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_94.asset using Guid(f8cb4e2fc39c73b409c54d9b0d7b510a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5d662657e022bfce68936081bfe78f') in 0.015471 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_99.asset
-  artifactKey: Guid(b5feca3836b31fe48b00a8b8561446ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_99.asset using Guid(b5feca3836b31fe48b00a8b8561446ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f5b7a9c5f197387604cfd5f92108d6') in 0.016813 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_159.asset
-  artifactKey: Guid(b7f0487c8ba80e7408e5467026193399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_159.asset using Guid(b7f0487c8ba80e7408e5467026193399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b968ae10d5db36ef0b9a4f6dda0cfc25') in 0.016312 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_153.asset
-  artifactKey: Guid(b8bf2b1c8325779449d94d65255b2cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_153.asset using Guid(b8bf2b1c8325779449d94d65255b2cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91395486b3ad4082d27578ce5ce7272b') in 0.016155 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_154.asset
-  artifactKey: Guid(94ac6eb5ee5b4e44a95ddfcf093c21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_154.asset using Guid(94ac6eb5ee5b4e44a95ddfcf093c21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68198a3ea134bb9ae5698bdff3ce7491') in 0.016478 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/asset map/tilemap/Temple Asset Pack_Test_96.asset
-  artifactKey: Guid(c5e630a787dc7cd4c9ba30ca0945b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_96.asset using Guid(c5e630a787dc7cd4c9ba30ca0945b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2de68e104b6bb1d7c7a74ed46e2df') in 0.017468 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.781836 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.png
-  artifactKey: Guid(077a431ffd6030d4eafccec3f502f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.png using Guid(077a431ffd6030d4eafccec3f502f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edfa37b71f558d8be691dcee038c9dc') in 0.033348 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 17.861322 seconds.
-  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
-  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe9c2c4650626a71e1cf1c5cf51b5cf') in 0.768865 seconds 
-Number of asset objects unloaded after import = 347
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

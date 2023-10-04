@@ -15,7 +15,7 @@ C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62700
+60388
 Successfully changed project path to: C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [268] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 2297949910 [EditorId] 2297949910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11624] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3535695990 [EditorId] 3535695990 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [268] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 2297949910 [EditorId] 2297949910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11624] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3535695990 [EditorId] 3535695990 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 83.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 126.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,112 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005498 seconds.
+Registered in 0.009793 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.29 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 124.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
+- Completed reload, in  1.034 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (125ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005128 seconds.
+Registered in 0.008600 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.02 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.606 seconds
+- Completed reload, in  1.963 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1607ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1381ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1707ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (987ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (762ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (905ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (46.5 KB). Loaded Objects now: 4267.
-Memory consumption went from 146.6 MB to 146.6 MB.
-Total: 3.796000 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.116700 ms MarkObjects: 3.243400 ms  DeleteObjects: 0.108500 ms)
+Unloading 4175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (46.8 KB). Loaded Objects now: 4634.
+Memory consumption went from 158.8 MB to 158.8 MB.
+Total: 4.189800 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.220200 ms MarkObjects: 3.373000 ms  DeleteObjects: 0.136100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (21.9 KB). Loaded Objects now: 4634.
+Memory consumption went from 74.5 MB to 74.5 MB.
+Total: 6.247300 ms (FindLiveObjects: 0.536300 ms CreateObjectMapping: 0.646300 ms MarkObjects: 5.015900 ms  DeleteObjects: 0.047200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,37 +189,383 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1898368.387706 seconds.
-  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/Button1.png
-  artifactKey: Guid(41e7710d98e71b9498198f6fe92e933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1994707.062235 seconds.
+  path: Assets/asset map/image fond/image3.png
+  artifactKey: Guid(ebcc1d055e720c145a787df7241e0a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/Button1.png using Guid(41e7710d98e71b9498198f6fe92e933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a368e4548cb71898db42eb43ff845a') in 0.166658 seconds 
+Start importing Assets/asset map/image fond/image3.png using Guid(ebcc1d055e720c145a787df7241e0a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4616b0460054dcd4af880783bf601b8') in 0.341105 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad1.png
-  artifactKey: Guid(5f66b5c2d6762b04eb04a4ba0b868a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.532923 seconds.
+  path: Assets/asset map/image fond/image2.png
+  artifactKey: Guid(8059d96b1f718c44e852f2554470c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad1.png using Guid(5f66b5c2d6762b04eb04a4ba0b868a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d189d6631e53fcfa359115ffd504f4') in 0.027513 seconds 
+Start importing Assets/asset map/image fond/image2.png using Guid(8059d96b1f718c44e852f2554470c3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca958d3fc18e69c82d54b3ea595ac781') in 0.265960 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad2.png
-  artifactKey: Guid(9ee111519e162864998a69fb360ef8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.846631 seconds.
+  path: Assets/asset map/image fond/image1.png
+  artifactKey: Guid(aa85a9dc775cfa3448de79cfe919cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad2.png using Guid(9ee111519e162864998a69fb360ef8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd456acb62c0ad4bfab3e2a61817fac82') in 0.023259 seconds 
+Start importing Assets/asset map/image fond/image1.png using Guid(aa85a9dc775cfa3448de79cfe919cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40e5ca08c1724bd25767f7eeea949a3') in 0.267423 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.879570 seconds.
-  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Back.png
-  artifactKey: Guid(c80105b7ce9692143b6d8976c6bd1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.127803 seconds.
+  path: Assets/asset map/image fond/image.png
+  artifactKey: Guid(7bdfb934ec75a2747b7559879728246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Back.png using Guid(c80105b7ce9692143b6d8976c6bd1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9230ba7b8e9a91acc4c65229217765') in 0.288528 seconds 
+Start importing Assets/asset map/image fond/image.png using Guid(7bdfb934ec75a2747b7559879728246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4dd46808bd88960b7b98d329a9dbc8') in 0.166703 seconds 
 Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.244 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2244ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1828ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1029ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4652.
+Memory consumption went from 162.2 MB to 162.2 MB.
+Total: 4.368600 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.151300 ms MarkObjects: 3.724800 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1471.689613 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8646d53e82711048f3e920f9bcf570') in 0.084516 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.117318 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset
+  artifactKey: Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset using Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee293952f059c1fcfeafc19813bda4b2') in 0.022677 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 62.116548 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset
+  artifactKey: Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset using Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920522aadeb601b77d18352a4c08b8ee') in 0.013679 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spikeinverse.png
+  artifactKey: Guid(6e852214a02f7984db061dff3f1cac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spikeinverse.png using Guid(6e852214a02f7984db061dff3f1cac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b68b559140fc82e23cb66237b4b785') in 0.041269 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebb747aacb72c4e70f752e45f58f0ee') in 0.017529 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 29.369137 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset
+  artifactKey: Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike.asset using Guid(ae2a4af83eac13c4dbcc07a0e9d12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a148b6feaf40397738fd44620c8d02') in 0.009811 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae8be5212a59250938de8941246a73d') in 0.010886 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.087691 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8d057bf5c83fd1ef561668570ab832') in 0.018242 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 27.240942 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74a131641b21f62171dbacc33359047') in 0.014017 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 13.973852 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793de368c3d77ef79df32a8e83e5b9c6') in 0.011665 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 739.554125 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eec9dde1273c8272b74b058e5aa8249') in 0.021195 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.810370 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a2b5da588f2875bba054d4270f1adb') in 0.015972 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.742130 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab
+  artifactKey: Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/spike.prefab using Guid(4f04fad59da33794c8c6c639ef55b0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b4bfbc58b2d38b38ab7fb7f610ba3f') in 0.014428 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 226.268775 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Arrow_Double_Jump.gif
+  artifactKey: Guid(febaa9d7cd145f74aae9ea6a42cd1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Arrow_Double_Jump.gif using Guid(febaa9d7cd145f74aae9ea6a42cd1bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315419b7a20258a95a2dcb695e38a101') in 0.091512 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Introl_Trap.png
+  artifactKey: Guid(03cd66000a1ea004aa0d172b78925119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Introl_Trap.png using Guid(03cd66000a1ea004aa0d172b78925119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01595e84c5ec982b14a7c32e009b51a8') in 0.107353 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.214471 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Be_Spear.png
+  artifactKey: Guid(fb6b72eac3bd5a645955c2d04e076158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Be_Spear.png using Guid(fb6b72eac3bd5a645955c2d04e076158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab5af4f38bf756860d103c746f14757') in 0.131287 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FireBox.gif
+  artifactKey: Guid(e4b2a9503bcdad7498919dbbacf491c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FireBox.gif using Guid(e4b2a9503bcdad7498919dbbacf491c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25bc0ad867375b3e1235476a453a485') in 0.079705 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan.png
+  artifactKey: Guid(55cfc61b363492c429b8b3cab9a2c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan.png using Guid(55cfc61b363492c429b8b3cab9a2c775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688560b8c29e3856940049f5644815c7') in 0.043053 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Brick.gif
+  artifactKey: Guid(597ad2fa320880144bed6d4677417543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Brick.gif using Guid(597ad2fa320880144bed6d4677417543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabf850cb1d4a8c5be9609cd8457d3b4') in 0.051671 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FireBox.png
+  artifactKey: Guid(7215f1c72f4e0ec41a88c728575c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FireBox.png using Guid(7215f1c72f4e0ec41a88c728575c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ca764ab50814d01cba22fcdbfea285') in 0.041372 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Bomb.png
+  artifactKey: Guid(f6cdd0b8e09c3df48a21675fe80a83d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Bomb.png using Guid(f6cdd0b8e09c3df48a21675fe80a83d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd0e0fb7ee2208a828294d2bf372e82') in 0.036000 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.760029 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FallingRock.gif
+  artifactKey: Guid(ff6987eb6ceeba44fa3092d9c34a21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/FallingRock.gif using Guid(ff6987eb6ceeba44fa3092d9c34a21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122ca7a991227ca64aa5a0b9e653e556') in 0.045542 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.597942 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Matxich2.png
+  artifactKey: Guid(778b781fd8c252645b6696898bac65ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Matxich2.png using Guid(778b781fd8c252645b6696898bac65ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfb2cb0a63a3e4adec3ceecb856f4c6') in 0.033651 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.147940 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Moving Platfrom_A.png
+  artifactKey: Guid(9ba3022b39fe3fc4889c48363026274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Moving Platfrom_A.png using Guid(9ba3022b39fe3fc4889c48363026274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295951cc62c398be5c38091fe4d4635d') in 0.031985 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Shooter_Arrow_Trap.png
+  artifactKey: Guid(4456d8c1c56613545b7c466df36b941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Shooter_Arrow_Trap.png using Guid(4456d8c1c56613545b7c466df36b941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1e172746bda3a48339f03f736b1773') in 0.034725 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Shooter_Arrow_Trap.gif
+  artifactKey: Guid(d67c993e7200cde429b827f2d3b1ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Shooter_Arrow_Trap.gif using Guid(d67c993e7200cde429b827f2d3b1ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d7967f362a217434d281bad8a2310') in 0.031581 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike_B.png
+  artifactKey: Guid(f5147cbf728dfc3438933b215c611f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Spike_B.png using Guid(f5147cbf728dfc3438933b215c611f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1452cdbbcd079f976a450b2b779ecae') in 0.036243 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Trap_Spike_Run.gif
+  artifactKey: Guid(aee00c5431387564d9caf3caf79c450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Trap_Spike_Run.gif using Guid(aee00c5431387564d9caf3caf79c450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a3594ebbaab1f8629705c4df800d99') in 0.040578 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/SpikeBall.png
+  artifactKey: Guid(46675a3f023dfca42bebebb81aa0d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/SpikeBall.png using Guid(46675a3f023dfca42bebebb81aa0d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1460eec52346e71c3391951fac0f3962') in 0.028995 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2045ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1631ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1066ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (898ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4701.
+Memory consumption went from 162.4 MB to 162.4 MB.
+Total: 6.080500 ms (FindLiveObjects: 0.509900 ms CreateObjectMapping: 0.180600 ms MarkObjects: 5.339100 ms  DeleteObjects: 0.048800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
