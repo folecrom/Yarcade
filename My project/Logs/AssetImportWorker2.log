@@ -1,0 +1,1006 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57364
+Successfully changed project path to: C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12904] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 51741152 [EditorId] 51741152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12904] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 51741152 [EditorId] 51741152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 376.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011260 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 370.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1216ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (370ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 221.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  4.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4442ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (4108ms)
+			LoadAssemblies (2336ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (221ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (972ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (46.4 KB). Loaded Objects now: 4670.
+Memory consumption went from 166.1 MB to 166.1 MB.
+Total: 5.280200 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.135500 ms MarkObjects: 4.554800 ms  DeleteObjects: 0.151000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1929ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1613ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1081ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (916ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4673.
+Memory consumption went from 163.0 MB to 163.0 MB.
+Total: 4.420600 ms (FindLiveObjects: 0.362700 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.861800 ms  DeleteObjects: 0.033300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124125.837682 seconds.
+  path: Assets/Treasure Hunters/Pirate Ship/Sprites/Tilesets
+  artifactKey: Guid(579135d0f8fe97448a761458234fa2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Pirate Ship/Sprites/Tilesets using Guid(579135d0f8fe97448a761458234fa2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca4a3429dbe3d944b29f5bb86a47745') in 0.019132 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.176617 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_0.asset
+  artifactKey: Guid(2b579eafe794b5d42a420af82e20396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_0.asset using Guid(2b579eafe794b5d42a420af82e20396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c470572c07d8f09176468bb725b95c') in 0.185113 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10.asset
+  artifactKey: Guid(74033d8819c32a7499ce4fcca466456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10.asset using Guid(74033d8819c32a7499ce4fcca466456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc5bb2f7ec707df4e9df62d1403768e') in 0.036657 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_17.asset
+  artifactKey: Guid(169a8a54a112f354e9a2fc3296288ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_17.asset using Guid(169a8a54a112f354e9a2fc3296288ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bab877a452fb5908bb0e9fcd94b9979') in 0.037660 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5.asset
+  artifactKey: Guid(c84cbd8947416bc41b1364dc50b9574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5.asset using Guid(c84cbd8947416bc41b1364dc50b9574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc9c4107fc77237a20ec929bb4b90f6') in 0.033537 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.866274 seconds.
+  path: Assets/Treasure Hunters/Pirate Ship
+  artifactKey: Guid(ca8f860a0e242cd4e924ebb35f1fec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Pirate Ship using Guid(ca8f860a0e242cd4e924ebb35f1fec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d1ab0b767491a0e80cad56513d40ee') in 0.010717 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.203262 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_18.asset
+  artifactKey: Guid(208c863f9aeac524cab4f4e028d79965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_18.asset using Guid(208c863f9aeac524cab4f4e028d79965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c6b677442edfdff0fbb45f5f42b817') in 0.034501 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.301708 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island
+  artifactKey: Guid(90512e62d65f0854ca85d090a94bbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island using Guid(90512e62d65f0854ca85d090a94bbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d095bfd199039e2a71835144eff3e7') in 0.009002 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.311906 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island/Sprites
+  artifactKey: Guid(31ae2ee478324284ab8201fd0c0cde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island/Sprites using Guid(31ae2ee478324284ab8201fd0c0cde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8857d491d40fdb18c3ae8621a435cb53') in 0.009645 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.374913 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees
+  artifactKey: Guid(adb988432673f244b83853019e81a1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees using Guid(adb988432673f244b83853019e81a1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607bac9e42b6d6eb0fc17d5315df0742') in 0.012759 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.168010 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png
+  artifactKey: Guid(0fc0d81cf2de43a43a37dc3e9aab4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png using Guid(0fc0d81cf2de43a43a37dc3e9aab4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e89f46697cec69823864748a44f9df') in 0.139835 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Right 02.png
+  artifactKey: Guid(d4d9cff5698842a4a94d1151d82aca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Right 02.png using Guid(d4d9cff5698842a4a94d1151d82aca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1037eb2f87fac077d36d6dea2a4bf5b5') in 0.029291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.553460 seconds.
+  path: Assets/Treasure Hunters/Wood and Paper UI
+  artifactKey: Guid(255b63aa547a03547ba2df22702e8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Wood and Paper UI using Guid(255b63aa547a03547ba2df22702e8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca69e0e332a37d06ec1a4ace97adef') in 0.009089 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.282797 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_19.asset
+  artifactKey: Guid(a65aca797b4c64140aa28dda4a51c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_19.asset using Guid(a65aca797b4c64140aa28dda4a51c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf84ac19401bb6d73cf49865e5ca96bd') in 0.034146 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.486900 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_474.asset
+  artifactKey: Guid(12b4b66b79cd23a43a393079a5c8668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_474.asset using Guid(12b4b66b79cd23a43a393079a5c8668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c3151fbc00d76581f8db74d9821e5e') in 0.063344 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4317.asset
+  artifactKey: Guid(6153f1b8b24ed0845b9d360b587a4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4317.asset using Guid(6153f1b8b24ed0845b9d360b587a4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53f225b1187309a9814682bcdf90521') in 0.037539 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5839.asset
+  artifactKey: Guid(5e3c0d8335086ec45a553966b7636d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5839.asset using Guid(5e3c0d8335086ec45a553966b7636d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca96c296759cdc8dfa48047f5566399') in 0.038355 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2231.asset
+  artifactKey: Guid(5e964e745a0d34846b675e38d113cedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2231.asset using Guid(5e964e745a0d34846b675e38d113cedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de403e70d1199940cfd46dd6a8e42e9b') in 0.031470 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4305.asset
+  artifactKey: Guid(1ae7e5cc240d88d4c868bd54b268b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4305.asset using Guid(1ae7e5cc240d88d4c868bd54b268b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699417d12eeeb84ef67563bd296dd3a3') in 0.033485 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4306.asset
+  artifactKey: Guid(5f33889738eaad64288f7db4bd8ed08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4306.asset using Guid(5f33889738eaad64288f7db4bd8ed08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0657d16ced7acb2c66ae1f94e4bf9131') in 0.040418 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7109.asset
+  artifactKey: Guid(cf880e54a5efc4649bdbf5d2ff52a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7109.asset using Guid(cf880e54a5efc4649bdbf5d2ff52a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23730ce52e3703949426f1165e90a45d') in 0.036269 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10147.asset
+  artifactKey: Guid(70f27f4e5c7913341a1b53134ae1484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10147.asset using Guid(70f27f4e5c7913341a1b53134ae1484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cc256e8e1ea1b916955fb599b96c80') in 0.036793 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11091.asset
+  artifactKey: Guid(91f40460d7bdef949bfd4c85833d13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11091.asset using Guid(91f40460d7bdef949bfd4c85833d13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d64f045ef3479a3c25f16651ff29a') in 0.026021 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11232.asset
+  artifactKey: Guid(69cc6928cd8f80543b339c4753a4f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11232.asset using Guid(69cc6928cd8f80543b339c4753a4f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac91ffd5bcf887fe369d438072a9540') in 0.029624 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11103.asset
+  artifactKey: Guid(3770e8ab2966d9d409469b13d5fb6245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11103.asset using Guid(3770e8ab2966d9d409469b13d5fb6245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0185bb6415b8790e675e170a066cad1') in 0.030401 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3670.asset
+  artifactKey: Guid(acbf049486a53fb4fa99a200358767ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3670.asset using Guid(acbf049486a53fb4fa99a200358767ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea84a05a23c4dc343a9aceb4fe5984af') in 0.031280 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7113.asset
+  artifactKey: Guid(dcf21d97fab0a494dbfb6bd9afde3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7113.asset using Guid(dcf21d97fab0a494dbfb6bd9afde3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c21afaf122aec3089bb6559e7885791') in 0.029688 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7030.asset
+  artifactKey: Guid(50d1871fdd92ebb488add5fe0f36e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7030.asset using Guid(50d1871fdd92ebb488add5fe0f36e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd757931bd684b34ad13806eeb5e95987') in 0.026837 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5837.asset
+  artifactKey: Guid(a3abee590fd545e47919751efb981969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5837.asset using Guid(a3abee590fd545e47919751efb981969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32abafdfb66570a4858cf7e9fe6313') in 0.029378 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4322.asset
+  artifactKey: Guid(9c41d251a0d4fab43801fa0e086c0d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4322.asset using Guid(9c41d251a0d4fab43801fa0e086c0d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf2c52fa8ff55e716fc5add90160016') in 0.028291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11092.asset
+  artifactKey: Guid(99ace69e990cc384c9c402fcafbec5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11092.asset using Guid(99ace69e990cc384c9c402fcafbec5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981f6816c074df430e58a73c03af81b7') in 0.030963 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7029.asset
+  artifactKey: Guid(f5f09581820064d4ea4447a99b2ebdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7029.asset using Guid(f5f09581820064d4ea4447a99b2ebdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42dfebc47e686d87ebbc35d99a5ae18') in 0.028237 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2232.asset
+  artifactKey: Guid(ca0d0aa95918bf0459762a013c7ac9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2232.asset using Guid(ca0d0aa95918bf0459762a013c7ac9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e95bd3419f6ea3ddd20763706e1513') in 0.030423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10143.asset
+  artifactKey: Guid(6bb8ad19cd4601844a1dd5d64cbb7ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10143.asset using Guid(6bb8ad19cd4601844a1dd5d64cbb7ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a376adfda748586f6d88498d0a9f87') in 0.028501 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3682.asset
+  artifactKey: Guid(995b2423a04cc6a48a7579f87628b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3682.asset using Guid(995b2423a04cc6a48a7579f87628b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fcffac746813d72c2efd4c149cb067') in 0.028351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7104.asset
+  artifactKey: Guid(75193eff8dd09184dbfbb9272fbe1ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7104.asset using Guid(75193eff8dd09184dbfbb9272fbe1ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0567befece7b1443daf0d005430da757') in 0.025369 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2233.asset
+  artifactKey: Guid(374987b961b76e94bba058866a01812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2233.asset using Guid(374987b961b76e94bba058866a01812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938bf2a687b2049b0885b65724971d64') in 0.027576 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8390.asset
+  artifactKey: Guid(f4ac18163af0d7d4e85456b27c1f60bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8390.asset using Guid(f4ac18163af0d7d4e85456b27c1f60bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb704911e81521b30406e32b966b750') in 0.030341 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3672.asset
+  artifactKey: Guid(f5eeb80eb49611449ae8e73f4f210daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3672.asset using Guid(f5eeb80eb49611449ae8e73f4f210daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec37b86b88d5e048cd10099221fa70') in 0.029626 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8379.asset
+  artifactKey: Guid(c44a20206408b924aa1271303c16c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8379.asset using Guid(c44a20206408b924aa1271303c16c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3343861bec97fb0c100da0360702e') in 0.034851 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_480.asset
+  artifactKey: Guid(ff6a3d9c98cc7854cb09a0ab0aa5d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_480.asset using Guid(ff6a3d9c98cc7854cb09a0ab0aa5d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255a15d42ebf66a3ebaef464f19cd3e9') in 0.031379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7106.asset
+  artifactKey: Guid(6da4783f917230b4d97b585c0a65cf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7106.asset using Guid(6da4783f917230b4d97b585c0a65cf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343b7e27cf6fcfd1a37567c6d0cd91b5') in 0.024260 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10697.asset
+  artifactKey: Guid(53b5542d588b11d4390cf089670305af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10697.asset using Guid(53b5542d588b11d4390cf089670305af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c04399af255ec469c88991e124fbd') in 0.028034 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11097.asset
+  artifactKey: Guid(b9cd6f8e430762744ac4b9d25edd4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11097.asset using Guid(b9cd6f8e430762744ac4b9d25edd4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6951dd95ae3e7db29794c995a12be8f9') in 0.030416 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4310.asset
+  artifactKey: Guid(22b7d89915d78464d91b82b856a6ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4310.asset using Guid(22b7d89915d78464d91b82b856a6ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33820b1986ca39b4616c55db4bf1d7') in 0.035398 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_478.asset
+  artifactKey: Guid(cb39f744c92a2b64790750bc12a52fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_478.asset using Guid(cb39f744c92a2b64790750bc12a52fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87173dfd37164f217c1bd83eb11dac2f') in 0.037644 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2236.asset
+  artifactKey: Guid(16347c9c533b6f54e875c4aa64a5e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2236.asset using Guid(16347c9c533b6f54e875c4aa64a5e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e7bcb4afe83823dbf6bc4877e26df0') in 0.033510 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10132.asset
+  artifactKey: Guid(0958c52d0ce21fc4083e6b0141055832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10132.asset using Guid(0958c52d0ce21fc4083e6b0141055832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4304b24c649e910b5a092f0d879f0374') in 0.029216 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8374.asset
+  artifactKey: Guid(d194747c17a433946bed647b1e95b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8374.asset using Guid(d194747c17a433946bed647b1e95b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862717379a7fdbb352c7e727a6feb50a') in 0.030502 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3669.asset
+  artifactKey: Guid(a6908ab93e2dadb418becbb9b5a4bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3669.asset using Guid(a6908ab93e2dadb418becbb9b5a4bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a6cb66b46f1cc7b9ab972e9acd0244') in 0.028867 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5830.asset
+  artifactKey: Guid(560b2b68288cb894d995a2e69437046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5830.asset using Guid(560b2b68288cb894d995a2e69437046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7409101583a57cd8a0775f88aebecc') in 0.031197 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3685.asset
+  artifactKey: Guid(8888524c44e444c4283e875cd5b65e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3685.asset using Guid(8888524c44e444c4283e875cd5b65e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647cc8bc28884dd8939d722896119795') in 0.026909 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9513.asset
+  artifactKey: Guid(348afe40506a34d4a830069555a8924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9513.asset using Guid(348afe40506a34d4a830069555a8924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726c4494d36237aae2e6b6f12edfd898') in 0.028826 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11104.asset
+  artifactKey: Guid(e9f91091d0ae46d4f8e59f7f94d89014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11104.asset using Guid(e9f91091d0ae46d4f8e59f7f94d89014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efdc4a30668e8843154b4ae7f3a9948') in 0.029271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7023.asset
+  artifactKey: Guid(4906219f3ea8bb049ba357f7b385ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7023.asset using Guid(4906219f3ea8bb049ba357f7b385ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be66ed178204053d8136ddb0f689e4f') in 0.027193 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9504.asset
+  artifactKey: Guid(f5b5a79ab5af6e14fa4361dc69ff9944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9504.asset using Guid(f5b5a79ab5af6e14fa4361dc69ff9944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919a6d717392c732787c576fab13e80') in 0.028043 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11228.asset
+  artifactKey: Guid(56f8403d5d2b1f14e9138eb325d542d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11228.asset using Guid(56f8403d5d2b1f14e9138eb325d542d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bb64a92bf271f13350f0bf6c2f84dc') in 0.028566 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7035.asset
+  artifactKey: Guid(f4d8afe06fe347948bb21d5434fa3ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7035.asset using Guid(f4d8afe06fe347948bb21d5434fa3ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f5075582d78b8d28ed2064dad1fdf6') in 0.027893 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9499.asset
+  artifactKey: Guid(4ddfd46e5a87df34bb97a9b551043aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9499.asset using Guid(4ddfd46e5a87df34bb97a9b551043aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ff10e5d24351456425e1f2f3c86b74') in 0.031948 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6861.asset
+  artifactKey: Guid(f0c4e3d374f2d6e49a4d471f146ac652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6861.asset using Guid(f0c4e3d374f2d6e49a4d471f146ac652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2ef920e7f72152dee2ec009727557e') in 0.033391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4307.asset
+  artifactKey: Guid(7152b326febee634c9d5b0e87a330d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4307.asset using Guid(7152b326febee634c9d5b0e87a330d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb9d9c7d4c9391f2cff0e03c7b474be') in 0.026984 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7118.asset
+  artifactKey: Guid(6252e979bdcfeaa41a9705abd3171873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7118.asset using Guid(6252e979bdcfeaa41a9705abd3171873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ad1bee3ee49dff7349e0f802dbbff2') in 0.026058 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10703.asset
+  artifactKey: Guid(509df62a18a1c2d41ba6ca4d59cc1715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10703.asset using Guid(509df62a18a1c2d41ba6ca4d59cc1715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623da152f4d8fdbc53dfbd1c07c00ded') in 0.029072 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5838.asset
+  artifactKey: Guid(83f2f150249b6dd46bdee55a2267833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_5838.asset using Guid(83f2f150249b6dd46bdee55a2267833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8780124b572978e75d579113a88710b3') in 0.029488 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7033.asset
+  artifactKey: Guid(8f52b2d26c14ac540afd34139e059eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7033.asset using Guid(8f52b2d26c14ac540afd34139e059eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d6e223690bd1546bbb4fc1b5a325f') in 0.031085 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3677.asset
+  artifactKey: Guid(8346cc5188310634dbbad2a9716654c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3677.asset using Guid(8346cc5188310634dbbad2a9716654c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24951e032804ab1e20887c6b5357497e') in 0.026718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11106.asset
+  artifactKey: Guid(001226783db33d447b112b2a5ed376ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11106.asset using Guid(001226783db33d447b112b2a5ed376ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf1c0ad8acc7f6e7231685804c2bc8') in 0.036610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11090.asset
+  artifactKey: Guid(50a7589266b1cf04a951af4c08568e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11090.asset using Guid(50a7589266b1cf04a951af4c08568e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d1f21f557a308b5bd3bb219a74d773') in 0.035512 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8389.asset
+  artifactKey: Guid(e0068933b61c0154ca856ba50c3aa2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8389.asset using Guid(e0068933b61c0154ca856ba50c3aa2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd29ac0fd5e2ff54e3e738e6df0fa74c') in 0.027082 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7020.asset
+  artifactKey: Guid(9cd8bf6aa0419774b832d662d31e0a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7020.asset using Guid(9cd8bf6aa0419774b832d662d31e0a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed580114af44aea2369cf4237744e9a7') in 0.029573 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_486.asset
+  artifactKey: Guid(59cb439c3e606214b8e199460a8dc388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_486.asset using Guid(59cb439c3e606214b8e199460a8dc388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db75ae496544c08cd2e827be1627c25') in 0.030221 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8394.asset
+  artifactKey: Guid(50909b29645cb8648a4d0817bc259f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_8394.asset using Guid(50909b29645cb8648a4d0817bc259f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fac1a16701a3435c759467d343bd8c') in 0.029564 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9501.asset
+  artifactKey: Guid(b14c126ace5dc454881fcea30c951fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_9501.asset using Guid(b14c126ace5dc454881fcea30c951fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dad49ddc5bfaeb9671234babb881ff') in 0.029897 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11101.asset
+  artifactKey: Guid(d2ff551c18fb23447912dbb946232cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_11101.asset using Guid(d2ff551c18fb23447912dbb946232cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe98b3040765fabb2f91c1028737a7d4') in 0.029266 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6870.asset
+  artifactKey: Guid(cb0a15edfe74b2e49ae4ecd68fbea49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6870.asset using Guid(cb0a15edfe74b2e49ae4ecd68fbea49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a158a585e58c3842fda3bbdb4f5c4c') in 0.033763 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10131.asset
+  artifactKey: Guid(880a183a5c71cbe46af1f3fbbf40f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10131.asset using Guid(880a183a5c71cbe46af1f3fbbf40f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4d205cb8cabc2633898c3f4db5153f') in 0.033795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6864.asset
+  artifactKey: Guid(0ed8cabbcb26060448092a07ffbe172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_6864.asset using Guid(0ed8cabbcb26060448092a07ffbe172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11567eb0c0e833e95ad3f67867a500b') in 0.031251 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3674.asset
+  artifactKey: Guid(56667b3458f44b2478e4722b2903e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_3674.asset using Guid(56667b3458f44b2478e4722b2903e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f9cd6f3d644e4d26bf20a809313816') in 0.030185 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4304.asset
+  artifactKey: Guid(c49fb61f21aabe442bff974e7275fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_4304.asset using Guid(c49fb61f21aabe442bff974e7275fe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284428966a7816847e15855f68b495d9') in 0.031642 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7036.asset
+  artifactKey: Guid(5f6b03c3903774e45bc001ad9575a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_7036.asset using Guid(5f6b03c3903774e45bc001ad9575a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2889c1447da0ae4fd08e2ecedc6a197') in 0.030762 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2237.asset
+  artifactKey: Guid(94d52e308924d1b4aa33b7201b2ea1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_2237.asset using Guid(94d52e308924d1b4aa33b7201b2ea1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0847647c6a4f6234bf427716633e4a') in 0.031238 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10145.asset
+  artifactKey: Guid(f5d7af4bedbea344f91f77263fe7ba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_10145.asset using Guid(f5d7af4bedbea344f91f77263fe7ba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4635ed3c6937a184205441c11f1be0') in 0.028153 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.037031 seconds.
+  path: Assets/Sprites/piece.png
+  artifactKey: Guid(3148276bb47331a4b9853f5ef1ee172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/piece.png using Guid(3148276bb47331a4b9853f5ef1ee172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b402867b7af9c6c0854bc58408bcb0') in 0.034007 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.637136 seconds.
+  path: Assets/Prefab/Canvas Variant.prefab
+  artifactKey: Guid(fa7250014ed34544e8cf95d6b59a34c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Canvas Variant.prefab using Guid(fa7250014ed34544e8cf95d6b59a34c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e578283365e50d797532e450ee0cf131') in 0.031783 seconds 
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(23fed9ba28f2d5f458f3a6888dd5040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Player.prefab using Guid(23fed9ba28f2d5f458f3a6888dd5040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PlayerAnimations) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (PlayerAnimations) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '8872605f6020892790ed1cc83218579b') in 0.054371 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 7.908686 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Double_Jump_Dust_5.png
+  artifactKey: Guid(ed4f3e574b5ec764693dd07980d18ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Double_Jump_Dust_5.png using Guid(ed4f3e574b5ec764693dd07980d18ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b272be267de4ebb494bb053b7fd2d3') in 0.050835 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Throw_4.png
+  artifactKey: Guid(0e15dfefeb6b0db46b5898f2276c73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Throw_4.png using Guid(0e15dfefeb6b0db46b5898f2276c73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a392bd5101890dcfc8c84a8a3271773') in 0.044897 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Death_8.png
+  artifactKey: Guid(302ad41da6a01444f8d16cbd8f1af7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Death_8.png using Guid(302ad41da6a01444f8d16cbd8f1af7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222dff0e49988bc9f11526777e9999a3') in 0.044581 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Push_6.png
+  artifactKey: Guid(75261eeac6ad09f45b2300ed8d15b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Push_6.png using Guid(75261eeac6ad09f45b2300ed8d15b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c137a8ff92c79897186cc75b85ce263f') in 0.062166 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 17.063555 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/run 1.anim
+  artifactKey: Guid(267590bd3fc042e4e806db5823c2183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/run 1.anim using Guid(267590bd3fc042e4e806db5823c2183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013bfbaf0f2b9d206bd662478b251bb8') in 0.011610 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.184091 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/run.anim
+  artifactKey: Guid(833de8f445b16c9468eb7df970999ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/run.anim using Guid(833de8f445b16c9468eb7df970999ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a31259702d4358327ec33d9fca372d') in 0.014834 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.255664 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim
+  artifactKey: Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim using Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5fddf134b0ae84a7c19ebbfa269374') in 0.009223 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.172384 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim
+  artifactKey: Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim using Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e39780933d874bb5fb8d12bb32cd1') in 0.003422 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.089489 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim
+  artifactKey: Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim using Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bad0b913d2ea17cbcec035deb52134') in 0.003350 seconds 
+Number of asset objects unloaded after import = 1
