@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class timer : MonoBehaviour
 {
-public Text timerText;
+    public Text timerText;
     public Text bestTimerText;
     private float startTime;
     private bool finished = false;
