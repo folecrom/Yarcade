@@ -221,3 +221,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 745642.055308 seconds.
+  path: Assets/asset map/map 1.prefab
+  artifactKey: Guid(3ef94bceb89b83e49b638e378fef170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/map 1.prefab using Guid(3ef94bceb89b83e49b638e378fef170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ef892c469f69a5f1e0806c59bb2eb9') in 0.384923 seconds 
+Number of asset objects unloaded after import = 701
+========================================================================
+Received Import Request.
+  Time since last request: 1.301449 seconds.
+  path: Assets/Prefab/Canvas Variant.prefab
+  artifactKey: Guid(fa7250014ed34544e8cf95d6b59a34c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Canvas Variant.prefab using Guid(fa7250014ed34544e8cf95d6b59a34c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e578283365e50d797532e450ee0cf131') in 0.023011 seconds 
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(23fed9ba28f2d5f458f3a6888dd5040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/Player.prefab using Guid(23fed9ba28f2d5f458f3a6888dd5040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (PlayerAnimations) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (PlayerAnimations) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b240199f17a08ae3c6db9c9798338ceb') in 0.026046 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/timer.prefab
+  artifactKey: Guid(697dcbabda25e064cb3a310cc3b40fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/timer.prefab using Guid(697dcbabda25e064cb3a310cc3b40fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c716cd13ed0dfe5092cffa5c6cc189e9') in 0.012166 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/NCoin.prefab
+  artifactKey: Guid(c29b6942f94c99149a218f463f4caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/NCoin.prefab using Guid(c29b6942f94c99149a218f463f4caea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e8651736519e6c2ea2842650d04f0c') in 0.010833 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/coin.prefab
+  artifactKey: Guid(30bd512d8cc60c94b8ac7adb89c39f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/coin.prefab using Guid(30bd512d8cc60c94b8ac7adb89c39f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea40bd7ec4558890ceabdf771d5c7d53') in 0.016638 seconds 
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
