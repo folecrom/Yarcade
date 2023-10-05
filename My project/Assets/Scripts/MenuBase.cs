@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public enum PanelType
 {
     None,
-
     Main,
-
     Options,
+    Choixlvl,
 
-    Credits,  
+    //Credits,   
 }
 
 public class MenuBase : MonoBehaviour
@@ -20,6 +20,8 @@ public class MenuBase : MonoBehaviour
     [SerializeField] private List<MenuPanel> panelsList = new List<MenuPanel>();
     private Dictionary<PanelType, MenuPanel> panelsDict = new Dictionary<PanelType, MenuPanel>();
 
+    [SerializeField] private EventSystem eventController; //permet à l'eventsystem la gestion des boutons selectionnés 
+
     private GameManager manager;
 
     private void Start()
@@ -28,13 +30,17 @@ public class MenuBase : MonoBehaviour
 
         foreach (var _panel in panelsList)
         {
-            if(_panel)panelsDict.Add(_panel.GetPanelType(),_panel);
+            if(_panel) 
+            {
+                panelsDict.Add(_panel.GetPanelType(), _panel);
+                _panel.init(this);
+            }
         }
 
         OpenOnePanel(PanelType.Main);
     }
 
-    private void OpenOnePanel(PanelType _type)
+    private void OpenOnePanel(PanelType _type)          //affiche le panel choisit et désactive les autres
     {
         foreach (var _panel in panelsList) _panel.ChangeState(false); 
 
@@ -53,6 +59,11 @@ public class MenuBase : MonoBehaviour
     public void Quit()
     {
         manager.Quit();
+    }
+
+    public void SetSelectedGameObject(GameObject _element)   //naviguer dans les panels
+    {
+        eventController.SetSelectedGameObject(_element); 
     }
 }   
     

@@ -6,19 +6,35 @@ using UnityEngine;
 public class MenuPanel : MonoBehaviour
 {
     [SerializeField] private PanelType type;
+
     private bool state;
 
+    [Header("Config")]
+
+    [SerializeField] private GameObject selectedGameObject; //définit par le joueur
+
     private Canvas canvas;
+
+    private MenuBase controller;
 
     private void Awake() 
     {
         canvas = GetComponent<Canvas>();
     }
 
+    public void init(MenuBase _controller) {controller = _controller;}
+
     private void UpdateState()
     {
         canvas.enabled = state;
+        //StopAllCoroutines();
+        //StartCoroutine(Animate(state));
+
+        if(state) 
+            controller.SetSelectedGameObject(selectedGameObject);  //si on est sur le panel
     }
+
+    
 
     public void ChangeState()
     {
@@ -40,14 +56,4 @@ public class MenuPanel : MonoBehaviour
     }
 
     #endregion
-
-
-
-
-
-
-
-
-
-
 }
