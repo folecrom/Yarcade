@@ -36,28 +36,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 7;
     [SerializeField] private float jumpHeight = 10;
     [SerializeField] private float wallSlidingSpeed = 2f;
+    [SerializeField] private float wallJumpXSpeed;
     [SerializeField] private Vector2 characterBounds;
     [SerializeField] private Vector2 EdgesDetector;
     [SerializeField] private float airControlSlowDown = 2f;
-
-    public float Speed
-    {
-        get { return speed; }
-        set { speed = value; }
-    }
-    public float JumpHeight
-    {
-        get { return jumpHeight; }
-        set { jumpHeight = value; }
-    }
-    public float AirControlSlowDown
-    {
-        get { return airControlSlowDown; }
-        set { airControlSlowDown = value; }
-    }
-
-    
-
     private bool coyote => !IsGrounded() && timeLeftGround + coyoteTimeThreshold > Time.time;
     private bool bufferedJump => IsGrounded() && lastJumpPressed + jumpBuffer > Time.time;
 
@@ -77,11 +59,11 @@ public class PlayerController : MonoBehaviour
             transform.localScale = localScale;
         }
         WallSlide();
-        if (!IsGrounded()) {
-            // DefyEdges();
-        } else {
-            hasDefiedEdge = false;
-        }
+        // if (!IsGrounded()) {
+        //     // DefyEdges();
+        // } else {
+        //     hasDefiedEdge = false;
+        // }
         if (IsGrounded() != ground) {
             timeLeftGround = Time.time;
             ground = IsGrounded();
@@ -94,12 +76,6 @@ public class PlayerController : MonoBehaviour
     }
 
     [SerializeField] private float runHoldDecrease;
-
-    public float RunHoldDecrease
-    {
-        get { return runHoldDecrease; }
-        set { runHoldDecrease = value; }
-    }
 
     private float runHold;
 
@@ -138,7 +114,7 @@ public class PlayerController : MonoBehaviour
             onImpulse = true;
             isWallJumping = true;
             wallJumpingDirection = -transform.localScale.x;
-            rb.AddForce(new Vector2(wallJumpingDirection*speed, jumpHeight), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(wallJumpingDirection*wallJumpXSpeed, jumpHeight), ForceMode2D.Impulse);
             if (transform.localScale.x != wallJumpingDirection)
             {
                 isFacingRight = !isFacingRight;

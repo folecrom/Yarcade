@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 579724070}
   - component: {fileID: 579724072}
   - component: {fileID: 579724071}
+  - component: {fileID: 579724077}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -131,21 +132,17 @@ MonoBehaviour:
   wallCheckRadius: 0.2
   groundlayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   jumpBuffer: 0.15
   coyoteTimeThreshold: 0.2
   speed: 7
-  jumpHeight: 10
+  jumpHeight: 7
   wallSlidingSpeed: 2
+  wallJumpXSpeed: 1.1
   characterBounds: {x: 0, y: 0}
   EdgesDetector: {x: 0, y: 0}
   airControlSlowDown: 2
-  runHoldDecrease: 0
-  jumpApexThreshold: 10
-  minFallSpeed: 80
-  maxFallSpeed: 120
-  jumpEndEarlyGravityModifier: 3
-  fallClamp: -40
+  runHoldDecrease: 4
 --- !u!50 &579724070
 Rigidbody2D:
   serializedVersion: 4
@@ -166,7 +163,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &579724072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -245,6 +242,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &579724077
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696083607826869721}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc9c141df5a77f24f8a6868663bd2c78, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6504707848098670201
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8336497950225972886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.161, z: 0}
+  m_LocalPosition: {x: 0, y: -0.167, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
