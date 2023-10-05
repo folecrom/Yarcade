@@ -7,10 +7,9 @@ public enum PanelType
 {
     None,
     Main,
-    Options,
+    Credits,
     Choixlvl,
-
-    //Credits,   
+   
 }
 
 public class MenuBase : MonoBehaviour
