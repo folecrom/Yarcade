@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 16306 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 10101 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
+C:/Users/lemou/OneDrive/Bureau/hackaton/Yarcade/My project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60171
-Successfully changed project path to: C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
-C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
+49322
+Successfully changed project path to: C:/Users/lemou/OneDrive/Bureau/hackaton/Yarcade/My project
+C:/Users/lemou/OneDrive/Bureau/hackaton/Yarcade/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,117 +47,121 @@ C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30712] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 41384695 [EditorId] 41384695 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DFBRO8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24180] Host "[IP] 169.254.142.10 [Port] 0 [Flags] 2 [Guid] 1527410186 [EditorId] 1527410186 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMUSG57S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30712] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 41384695 [EditorId] 41384695 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DFBRO8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24180] Host "[IP] 169.254.142.10 [Port] 0 [Flags] 2 [Guid] 1527410186 [EditorId] 1527410186 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMUSG57S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 141.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 102.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/lemou/OneDrive/Bureau/hackaton/Yarcade/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
-    Vendor:   NVIDIA
-    VRAM:     5968 MB
-    Driver:   31.0.15.3742
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     5050 MB
+    Driver:   31.0.12044.56000
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010642 seconds.
+Registered in 0.181007 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.98 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.741 seconds
+- Completed reload, in  6.419 seconds
 Domain Reload Profiling:
-	ReloadAssembly (742ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (6419ms)
+		BeginReloadAssembly (4890ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (985ms)
+			LoadAssemblies (4894ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (585ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010163 seconds.
+Registered in 0.007411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.48 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.688 seconds
+- Completed reload, in  6.686 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1690ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (6686ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1430ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (6348ms)
+			LoadAssemblies (4576ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
+			SetupTypeCache (653ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (950ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1030ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (677ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4199 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (46.8 KB). Loaded Objects now: 4665.
-Memory consumption went from 161.4 MB to 161.3 MB.
-Total: 5.772500 ms (FindLiveObjects: 0.993500 ms CreateObjectMapping: 0.444500 ms MarkObjects: 4.186500 ms  DeleteObjects: 0.146600 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (46.8 KB). Loaded Objects now: 4655.
+Memory consumption went from 161.6 MB to 161.6 MB.
+Total: 4.745800 ms (FindLiveObjects: 0.591000 ms CreateObjectMapping: 0.454600 ms MarkObjects: 3.509000 ms  DeleteObjects: 0.188600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -167,85 +171,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 734300.170437 seconds.
-  path: Assets/Sprites/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad2.png
-  artifactKey: Guid(bbe2d264b590b7d4098da3862ea98c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 266454.276385 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island
+  artifactKey: Guid(90512e62d65f0854ca85d090a94bbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad2.png using Guid(bbe2d264b590b7d4098da3862ea98c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df1e6f228a0cc88cc1b80520e63b6a9') in 0.208149 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Palm Tree Island using Guid(90512e62d65f0854ca85d090a94bbbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08f2092cd9638cab68979aaa1aac636') in 0.029667 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad9.png
-  artifactKey: Guid(7cd909d0600da7f4397477fc75875ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.948148 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island/Aseprite/Chest.aseprite
+  artifactKey: Guid(6feefff26c4c4854badfac4af0b2383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc/JumpPad9.png using Guid(7cd909d0600da7f4397477fc75875ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5542cf06ac361ba1ccf443a99f4d9b0') in 0.036261 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Palm Tree Island/Aseprite/Chest.aseprite using Guid(6feefff26c4c4854badfac4af0b2383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb09cfb733a45d914cadba81b2c9d81d') in 0.267019 seconds 
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 168.525600 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Double_Jump_Dust_5.png
-  artifactKey: Guid(aea46313b0e8e3548b48534df4782a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 49.325042 seconds.
+  path: Assets/Treasure Hunters/Shooter Traps
+  artifactKey: Guid(1a5c45c5fb2830f44b9419c2c5b4976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Double_Jump_Dust_5.png using Guid(aea46313b0e8e3548b48534df4782a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8015975da62febf1a776f278609854f') in 0.046633 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Shooter Traps using Guid(1a5c45c5fb2830f44b9419c2c5b4976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd42ee5c8f3f6a029b8bb941a2c3335') in 0.012839 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Walk_Run_Push_Dust_6.png
-  artifactKey: Guid(631fbe2880ed09f47a5d00f48ab42039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.701163 seconds.
+  path: Assets/Treasure Hunters/Shooter Traps/Aseprite/Shooter Traps.aseprite
+  artifactKey: Guid(8658c0220e2aa4e4eb98bc6bfe8fbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Walk_Run_Push_Dust_6.png using Guid(631fbe2880ed09f47a5d00f48ab42039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1790f25e51d5ef17963ab9e95fdea603') in 0.044576 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Shooter Traps/Aseprite/Shooter Traps.aseprite using Guid(8658c0220e2aa4e4eb98bc6bfe8fbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbd071cacd9108cc22ff777f6f6178b') in 0.469837 seconds 
+Number of asset objects unloaded after import = 230
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Climb_4.png
-  artifactKey: Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 14.336933 seconds.
+  path: Assets/Treasure Hunters/Pirate Treasure
+  artifactKey: Guid(957c06d6fcca3f64fa6403536330ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Climb_4.png using Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630223d469dc974a217dc27a57c03a22') in 0.042121 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Pirate Treasure using Guid(957c06d6fcca3f64fa6403536330ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233409abd10d09bc16584760591000f7') in 0.019122 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk_6.png
-  artifactKey: Guid(89128588282447846b79fdf8d4f320f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.901303 seconds.
+  path: Assets/Treasure Hunters/Pirate Treasure/Aseprite/Pirate Treasure.aseprite
+  artifactKey: Guid(600ce33e2e2c2dc4f8527d614c164a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk_6.png using Guid(89128588282447846b79fdf8d4f320f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c482759c58aa70cfa5d1694bbac4e') in 0.035930 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Pirate Treasure/Aseprite/Pirate Treasure.aseprite using Guid(600ce33e2e2c2dc4f8527d614c164a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21f473a858895672dc8eed099f81233') in 0.405844 seconds 
+Number of asset objects unloaded after import = 185
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png
-  artifactKey: Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 307.986537 seconds.
+  path: Assets/Treasure Hunters/Pirate Ship/Sprites
+  artifactKey: Guid(dd9460c92a6c31f45a6e0a825676091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png using Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8eb4fbea70ef696f4dc37ed51da863') in 0.046219 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/Pirate Ship/Sprites using Guid(dd9460c92a6c31f45a6e0a825676091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c842748fe291e06ba34ce9083ad7de4') in 0.013060 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png
-  artifactKey: Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 13.960809 seconds.
+  path: Assets/Treasure Hunters/The Crusty Crew/Aseprite/Crabby.aseprite
+  artifactKey: Guid(6c2126f3ba583714097e2a1f5957e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png using Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1812957ba28691a559aa8fe558d039') in 0.036887 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Treasure Hunters/The Crusty Crew/Aseprite/Crabby.aseprite using Guid(6c2126f3ba583714097e2a1f5957e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6148f3572355ac92277cb56ec0d59f1') in 0.241838 seconds 
+Number of asset objects unloaded after import = 69
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png
-  artifactKey: Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treasure Hunters/The Crusty Crew/Aseprite/Pink Start.aseprite
+  artifactKey: Guid(e39cd254d3b5a6c4ebb602bfcd1c55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png using Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec552ea4a55ffd8e5c932590b1feb1a') in 0.038999 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png
-  artifactKey: Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png using Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c8f31f4d13e7da43fbe24a61995969') in 0.039799 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Treasure Hunters/The Crusty Crew/Aseprite/Pink Start.aseprite using Guid(e39cd254d3b5a6c4ebb602bfcd1c55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88307c7883570a4309576c1671c9f1b1') in 0.172396 seconds 
+Number of asset objects unloaded after import = 68
