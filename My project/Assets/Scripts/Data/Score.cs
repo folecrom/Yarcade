@@ -1,5 +1,5 @@
 public class Score 
 {
-    public float score;
-    public string username;
+    public float[] scores;
+    public string[] usernames;
 }
