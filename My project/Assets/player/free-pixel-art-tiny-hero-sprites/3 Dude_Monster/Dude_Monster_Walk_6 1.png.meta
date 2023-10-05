@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3d69784fe985ef7438c05e36540aaa65
+guid: 62306fb78279b9c4c9960f35265774a0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_0
+      name: Dude_Monster_Walk_6_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 009ecada1cd02a64db65f4015bc275a5
-      internalID: -654620283
+      spriteID: 02a68246741420240adb645282e500cb
+      internalID: -64198793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_1
+      name: Dude_Monster_Walk_6_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: accbfd1f24f145b4694964e82c77a063
-      internalID: 1579794780
+      spriteID: ad79df44c5a59754a829329fa1edad3d
+      internalID: -758123690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_2
+      name: Dude_Monster_Walk_6_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9bb5e65b34492643a1865413878d939
-      internalID: 1536421192
+      spriteID: 2f992e022795cd34b88a6e68baad0a52
+      internalID: 1952942364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_3
+      name: Dude_Monster_Walk_6_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db9b1ec7aa5a9d140a932e67453487cc
-      internalID: 106651935
+      spriteID: 5be73a986d408bc42b9d6edf8d67abd6
+      internalID: 1479279405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_4
+      name: Dude_Monster_Walk_6_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73cb2307b6b2e124e9b427234aa3f19b
-      internalID: -225574270
+      spriteID: c449b52368870b54cad51b32f8398d7b
+      internalID: 1605530281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dude_Monster_Run_6_5
+      name: Dude_Monster_Walk_6_5
       rect:
         serializedVersion: 2
         x: 160
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b97f0ccf152ead40aca2b7ab5b17c7e
-      internalID: -514428762
+      spriteID: de2efc031e2fa1a499356b9436582b37
+      internalID: 689897086
       vertices: []
       indices: 
       edges: []
@@ -253,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dude_Monster_Run_6_0: -654620283
-      Dude_Monster_Run_6_1: 1579794780
-      Dude_Monster_Run_6_2: 1536421192
-      Dude_Monster_Run_6_3: 106651935
-      Dude_Monster_Run_6_4: -225574270
-      Dude_Monster_Run_6_5: -514428762
+      Dude_Monster_Walk_6_0: -64198793
+      Dude_Monster_Walk_6_1: -758123690
+      Dude_Monster_Walk_6_2: 1952942364
+      Dude_Monster_Walk_6_3: 1479279405
+      Dude_Monster_Walk_6_4: 1605530281
+      Dude_Monster_Walk_6_5: 689897086
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
