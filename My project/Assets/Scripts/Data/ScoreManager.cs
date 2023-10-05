@@ -11,23 +11,23 @@ using UnityEngine.UIElements;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] private Text[] scores;
+    public string username;
+    public static ScoreManager instance;
     private string data ="";
     private Score scoreData;
     
 
     public void Start() {
-        // scoreData = new Score();
-        // File.WriteAllText(Application.dataPath + "/HighscoreLvl1.json", JsonUtility.ToJson(scoreData, true));
-    }
-    public void Update() {
-        if (EventSystem.current.currentSelectedGameObject == this.gameObject)
-            DisplayHighscores();
+        if (instance == null) {
+            instance = this;
+        }
+        DontDestroyOnLoad(this);
     }
 
-    public void DisplayHighscores() {
-        if (name == "LVL1")
+    public void DisplayHighscores(string lvl) {
+        if (lvl == "LVL1")
             data = File.ReadAllText(Application.dataPath + "/HighScoreLvl1.json");
-        if (name == "LVL2")
+        if (lvl == "LVL2")
             data = File.ReadAllText(Application.dataPath + "/HighScoreLvl2.json");
         scoreData = JsonUtility.FromJson<Score>(data);
         for (int i = 0; i < 5; i++) {
