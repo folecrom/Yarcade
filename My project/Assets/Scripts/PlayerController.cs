@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
             onImpulse = true;
             isWallJumping = true;
             wallJumpingDirection = -transform.localScale.x;
-            rb.AddForce(new Vector2(wallJumpingDirection*1.5f*speed, jumpHeight), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(wallJumpingDirection*speed, jumpHeight), ForceMode2D.Impulse);
             if (transform.localScale.x != wallJumpingDirection)
             {
                 isFacingRight = !isFacingRight;
@@ -174,10 +174,11 @@ public class PlayerController : MonoBehaviour
 
     private void WallSlide()
     {
-        if(IsWalled() && !IsGrounded() && moveVec.x != 0 && !isWallJumping)
+        if(IsWalled() && !IsGrounded() && moveVec.x != 0 && !isWallJumping && rb.velocity.y != 0)
         {
             isWallSliding = true;
-            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);
+            
         }
         else {
             isWallSliding = false;
@@ -212,13 +213,13 @@ public class PlayerController : MonoBehaviour
     //     }
     // }
 
-    private float apexPoint;
-    [SerializeField] private float jumpApexThreshold = 10f;
-    [SerializeField] private float minFallSpeed = 80f;
-    [SerializeField] private float maxFallSpeed = 120f;
-    [SerializeField] private float jumpEndEarlyGravityModifier = 3;
-    [SerializeField] private float fallClamp = -40f;
-    private float fallSpeed;
+    // private float apexPoint;
+    // [SerializeField] private float jumpApexThreshold = 10f;
+    // [SerializeField] private float minFallSpeed = 80f;
+    // [SerializeField] private float maxFallSpeed = 120f;
+    // [SerializeField] private float jumpEndEarlyGravityModifier = 3;
+    // [SerializeField] private float fallClamp = -40f;
+    // private float fallSpeed;
 
     // private void CalculateJumpApex() {
     //     if (!IsGrounded()) {
