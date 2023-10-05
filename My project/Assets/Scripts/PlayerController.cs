@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private bool endedJumpEarly;
     private float currentHorizontalSpeed, currentVerticalSpeed;
+    private int jumpCounter = 0;
 
     [Header("Player Setup")]
     [SerializeField] private Transform groundCheck;
@@ -37,8 +38,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpHeight = 10;
     [SerializeField] private float wallSlidingSpeed = 2f;
     [SerializeField] private float wallJumpXSpeed;
-    [SerializeField] private Vector2 characterBounds;
-    [SerializeField] private Vector2 EdgesDetector;
     [SerializeField] private float airControlSlowDown = 2f;
     private bool coyote => !IsGrounded() && timeLeftGround + coyoteTimeThreshold > Time.time;
     private bool bufferedJump => IsGrounded() && lastJumpPressed + jumpBuffer > Time.time;
@@ -83,6 +82,7 @@ public class PlayerController : MonoBehaviour
     {
         if (IsGrounded()) {
             onImpulse = false;
+            jumpCounter = 0;
             animator.SetBool("IsJumping", false);
             currentVerticalSpeed = 0;
             rb.velocity = (new Vector2(moveVec.x * speed, rb.velocity.y));
@@ -105,14 +105,16 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump()
     {
-        if(IsGrounded() || bufferedJump || coyote) {
+        if(IsGrounded() || bufferedJump || coyote || (jumpCounter < 1 && !IsWalled())) {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         animator.SetBool("IsJumping", true);
+        jumpCounter++;
         }
         else if (IsWalled())
         {
             onImpulse = true;
             isWallJumping = true;
+            jumpCounter = 1;
             wallJumpingDirection = -transform.localScale.x;
             rb.AddForce(new Vector2(wallJumpingDirection*wallJumpXSpeed, jumpHeight), ForceMode2D.Impulse);
             if (transform.localScale.x != wallJumpingDirection)
@@ -125,11 +127,7 @@ public class PlayerController : MonoBehaviour
             Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }
         lastJumpPressed = Time.time;
-        // if (context.duration)
-        // } else if (context.canceled) {
-        //     Debug.Log("oui");
-        //     // endedJumpEarly = true
-        // }
+        
     }
 
     private void StopWallJumping()
