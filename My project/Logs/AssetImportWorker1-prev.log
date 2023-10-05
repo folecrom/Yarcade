@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 15741 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 16306 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 50295
 Successfully changed project path to: C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
 C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
+=======
+63127
+Successfully changed project path to: C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
+C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,32 +53,45 @@ C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [9600] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3692258689 [EditorId] 3692258689 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [9600] Host "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 3692258689 [EditorId] 3692258689 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MQL358U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
 Refreshing native plugins compatible for Editor in 589.77 ms, found 4 plugins.
+=======
+Player connection [5636] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 2399696811 [EditorId] 2399696811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DFBRO8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5636] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 2399696811 [EditorId] 2399696811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DFBRO8G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 207.29 ms, found 4 plugins.
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PROPRIETAIRE/Desktop/code/Yarcade/My project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/auger/OneDrive/Bureau/projet/Yarcade/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
+    VRAM:     5968 MB
     Driver:   31.0.15.3742
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.195256 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -83,11 +102,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (6583ms)
 		BeginReloadAssembly (4712ms)
+=======
+Registered in 0.013004 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 245.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (119ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (1249ms)
 			LoadAssemblies (4715ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -95,29 +126,53 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
 			SetupLoadedEditorAssemblies (396ms)
+=======
+		EndReloadAssembly (728ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (448ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (108ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (209ms)
 				ProcessInitializeOnLoadMethodAttributes (68ms)
+=======
+				RefreshPlugins (246ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 1.382806 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 104.77 ms, found 4 plugins.
+=======
+Registered in 0.011403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 323.76 ms, found 4 plugins.
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  7.355 seconds
 Domain Reload Profiling:
 	ReloadAssembly (7356ms)
@@ -134,9 +189,28 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (73ms)
 			SetupLoadedEditorAssemblies (1400ms)
+=======
+- Completed reload, in  2.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2371ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2023ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1395ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (132ms)
 				ProcessInitializeOnLoadAttributes (1088ms)
@@ -155,6 +229,26 @@ Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (46.7 KB). Loaded Objects now: 4635.
 Memory consumption went from 158.8 MB to 158.8 MB.
 Total: 4.948100 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.271800 ms MarkObjects: 4.046200 ms  DeleteObjects: 0.108300 ms)
+=======
+				RefreshPlugins (324ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (819ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (46.7 KB). Loaded Objects now: 4671.
+Memory consumption went from 166.2 MB to 166.1 MB.
+Total: 5.845500 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.109300 ms MarkObjects: 5.080600 ms  DeleteObjects: 0.140500 ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,6 +262,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 825.159416 seconds.
   path: Packages/com.unity.test-framework/package.json
   artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -182,6 +277,59 @@ Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (21.9 KB). Loaded Objects now: 4636.
 Memory consumption went from 74.5 MB to 74.5 MB.
 Total: 6.798400 ms (FindLiveObjects: 0.699600 ms CreateObjectMapping: 0.499500 ms MarkObjects: 5.553900 ms  DeleteObjects: 0.043500 ms)
+=======
+  Time since last request: 745503.839641 seconds.
+  path: Assets/Scenes/Niveau1.unity
+  artifactKey: Guid(8325f6239c31d3a43bc8a3291d2c1b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Niveau1.unity using Guid(8325f6239c31d3a43bc8a3291d2c1b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3dfa10b1d738a185380456722edb86') in 0.019585 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2518ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1915ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1075ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (822ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4674.
+Memory consumption went from 163.1 MB to 163.0 MB.
+Total: 4.469100 ms (FindLiveObjects: 0.658600 ms CreateObjectMapping: 0.161900 ms MarkObjects: 3.603200 ms  DeleteObjects: 0.043800 ms)
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -197,6 +345,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 3349.737836 seconds.
   path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster.png
   artifactKey: Guid(b3b1b791b1674a744b792eb55ed2a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -218,10 +367,188 @@ Received Import Request.
   artifactKey: Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
 Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Climb_4.png using Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a27668b627b281412788cf9409e0724') in 0.031257 seconds 
+=======
+  Time since last request: 139.888734 seconds.
+  path: Assets/Prefab/CheckPoint1.prefab
+  artifactKey: Guid(8c2ef0c875bf4ea4691d8843313b13c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefab/CheckPoint1.prefab using Guid(8c2ef0c875bf4ea4691d8843313b13c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7597e3c7248d7dc8bdead23de0a37d') in 0.135716 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009363 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1656ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4685.
+Memory consumption went from 167.5 MB to 167.4 MB.
+Total: 4.219000 ms (FindLiveObjects: 0.533800 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.545800 ms  DeleteObjects: 0.039200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1657.262300 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster.png
+  artifactKey: Guid(b3b1b791b1674a744b792eb55ed2a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster.png using Guid(b3b1b791b1674a744b792eb55ed2a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bc5662f392f8d0de4e1f956349c946') in 0.174531 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock2.png
+  artifactKey: Guid(7733fa161dc4f184da651bdcb9937b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock2.png using Guid(7733fa161dc4f184da651bdcb9937b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8fa4e9e1d3620067da32e072634694') in 0.029779 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(631fbe2880ed09f47a5d00f48ab42039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Walk_Run_Push_Dust_6.png using Guid(631fbe2880ed09f47a5d00f48ab42039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1790f25e51d5ef17963ab9e95fdea603') in 0.034830 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Climb_4.png
+  artifactKey: Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Climb_4.png using Guid(ffc3f12b5c026e04d971c2d2cd4c2058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630223d469dc974a217dc27a57c03a22') in 0.029880 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk_6.png
+  artifactKey: Guid(89128588282447846b79fdf8d4f320f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk_6.png using Guid(89128588282447846b79fdf8d4f320f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c482759c58aa70cfa5d1694bbac4e') in 0.029168 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png
+  artifactKey: Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Jump_8.png using Guid(3d901011a52b19f4686137ff53a48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8eb4fbea70ef696f4dc37ed51da863') in 0.030765 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png
+  artifactKey: Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Throw_4.png using Guid(94ad75371c3552842ada01aa16f54e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1812957ba28691a559aa8fe558d039') in 0.030690 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png
+  artifactKey: Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Death_8.png using Guid(d9eea4db46936b84394bbc0e949c4aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec552ea4a55ffd8e5c932590b1feb1a') in 0.030228 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png
+  artifactKey: Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Rock1.png using Guid(bb4635a80d3389246a75abdef30f749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c8f31f4d13e7da43fbe24a61995969') in 0.032569 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.248312 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster.png
+  artifactKey: Guid(bfb3187b24fefd549b028cdae415e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster.png using Guid(bfb3187b24fefd549b028cdae415e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1396b896a101d8bc7a4173f8e7c7246') in 0.025731 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Walk_6.png
+  artifactKey: Guid(6df69dde7aa744542a8e6da5a83bdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Walk_6.png using Guid(6df69dde7aa744542a8e6da5a83bdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07c4b66ba33fcc7564259453d1b2a96') in 0.029154 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(ffbd9c29f5a6a2c4bbc70e9750a9e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Walk_Run_Push_Dust_6.png using Guid(ffbd9c29f5a6a2c4bbc70e9750a9e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe629289f43fdfba77dfc2a6803a815f') in 0.025227 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Jump_8.png
+  artifactKey: Guid(06997b1e6762d144a84205b6aaa8a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Jump_8.png using Guid(06997b1e6762d144a84205b6aaa8a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7285afa65d894685bf452e5908839f55') in 0.029336 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Push_6.png
+  artifactKey: Guid(d65f155b3b0d167448451d820cd43cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Push_6.png using Guid(d65f155b3b0d167448451d820cd43cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ab7aac9ebe214ee6eb6ccf84aabe90') in 0.094651 seconds 
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
+<<<<<<< HEAD
   path: Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Walk_6.png
   artifactKey: Guid(89128588282447846b79fdf8d4f320f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
@@ -266,6 +593,108 @@ Received Import Request.
   artifactKey: Guid(c7d0787efb254e547a3cceff07f96d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
 Start importing Assets/player/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/Pink_Monster_Attack1_4.png using Guid(c7d0787efb254e547a3cceff07f96d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba0ac905ee0f4c0065abd8fab0a28a5') in 0.025347 seconds 
+=======
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Attack2_6.png
+  artifactKey: Guid(671683cf5dc7cf34abcbfa29de4fce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Attack2_6.png using Guid(671683cf5dc7cf34abcbfa29de4fce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f65e3e04483923c1b48afb0442dc4ed') in 0.033141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Run_6.png
+  artifactKey: Guid(027171e4e5c09bb45b8ae3add0397097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Run_6.png using Guid(027171e4e5c09bb45b8ae3add0397097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e12d7d291fc7bfbecfa8817d3455ff2') in 0.026158 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Rock2.png
+  artifactKey: Guid(8cc0dd8ef27edb542a5becb72de8b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Rock2.png using Guid(8cc0dd8ef27edb542a5becb72de8b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af92a854f1d031d22b4cc5d23fb6f9a1') in 0.021603 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Walk+Attack_6.png
+  artifactKey: Guid(3b0a30a0ed2298b41b47674a09104d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/Owlet_Monster_Walk+Attack_6.png using Guid(3b0a30a0ed2298b41b47674a09104d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98943e285640a654f887eed711f416ad') in 0.027655 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.205187 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster.png
+  artifactKey: Guid(e5a97089fd64d0345a976cca9fa45978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster.png using Guid(e5a97089fd64d0345a976cca9fa45978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac8e3f0a07816271ea00343de79840c') in 0.033638 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Attack2_6.png
+  artifactKey: Guid(c1a81f6901149f64aa739b96e400aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Attack2_6.png using Guid(c1a81f6901149f64aa739b96e400aa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecae87e7b2d0ce0a02195a2859079dc5') in 0.031403 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Push_6.png
+  artifactKey: Guid(75261eeac6ad09f45b2300ed8d15b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Push_6.png using Guid(75261eeac6ad09f45b2300ed8d15b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52942f1c18387f0782f91b1f4a9d162') in 0.030405 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Rock1.png
+  artifactKey: Guid(82a1f98902b34dc4b967233fc51bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Rock1.png using Guid(82a1f98902b34dc4b967233fc51bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01067dfebe1aeb7e854a5f3a7b271bc') in 0.026550 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Hurt_4.png
+  artifactKey: Guid(dbcab5d7777ff1948a73c58bf9156e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Hurt_4.png using Guid(dbcab5d7777ff1948a73c58bf9156e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc98fbc67e417dcec710817cb9496c10') in 0.031732 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Run_6.png
+  artifactKey: Guid(3d69784fe985ef7438c05e36540aaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Run_6.png using Guid(3d69784fe985ef7438c05e36540aaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca027dad428ee1a8499ded612d6cb6') in 0.032284 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Idle_4.png
+  artifactKey: Guid(96c6fd20c19b19547b8b6451b87e4697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Idle_4.png using Guid(96c6fd20c19b19547b8b6451b87e4697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c190f2c3b9598319a008ea89fc7dd71') in 0.032547 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Rock2.png
+  artifactKey: Guid(886fbae1010c02b46b884ef513a66724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Rock2.png using Guid(886fbae1010c02b46b884ef513a66724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5290d57151ab47d516a26780ec64bd82') in 0.024133 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Throw_4.png
+  artifactKey: Guid(0e15dfefeb6b0db46b5898f2276c73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/Dude_Monster_Throw_4.png using Guid(0e15dfefeb6b0db46b5898f2276c73f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bbb8ff121167e2471c4d44a5220b3f') in 0.028462 seconds 
+>>>>>>> 54fffd330f8c1f332dea3e101798c672b9089b90
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
