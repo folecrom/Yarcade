@@ -1004,3 +1004,271 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/player/free-pixel-art-tiny-hero-sprites/3 Dude_Monster/New Animation.anim using Guid(d2d96f236be929549a55f4f80ff813a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bad0b913d2ea17cbcec035deb52134') in 0.003350 seconds 
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 183.370163 seconds.
+  path: Assets/player/free-pixel-art-tiny-hero-sprites/Font/Planes_ValMore.ttf
+  artifactKey: Guid(1096b9984168055459686bebba29fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/player/free-pixel-art-tiny-hero-sprites/Font/Planes_ValMore.ttf using Guid(1096b9984168055459686bebba29fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c3495a0aeb3f141bba06034d753cdc') in 0.065591 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.069961 seconds.
+  path: Assets/config/My project.inputactions
+  artifactKey: Guid(3e0082f40972b90408356a8e836875c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/config/My project.inputactions using Guid(3e0082f40972b90408356a8e836875c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4fe19d52bfe84f06378323d7a695d7') in 0.026690 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.096726 seconds.
+  path: Assets/asset map/tilemap
+  artifactKey: Guid(21753ca54f2f39347b4ce57306299c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap using Guid(21753ca54f2f39347b4ce57306299c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ee248e58513e4f964c353a356c39b5') in 0.009786 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.242093 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc
+  artifactKey: Guid(eb5e74492f7c7624b908e34b20d9806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Misc using Guid(eb5e74492f7c7624b908e34b20d9806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58278dc11c54e808559db7eba881ad4a') in 0.014355 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.007625 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps
+  artifactKey: Guid(13d521cf2b5893c43b14e650edcc4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps using Guid(13d521cf2b5893c43b14e650edcc4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd720ed11f0a2dd7343b61db9277a0') in 0.008754 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.472955 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan
+  artifactKey: Guid(e7743cf1c5b059944a902d318e887ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan using Guid(e7743cf1c5b059944a902d318e887ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737054a87360f3d96c4cb5ddf28dcbff') in 0.009454 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.109283 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan1.png
+  artifactKey: Guid(52d8181c003ba29499a9894d72b0b1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan1.png using Guid(52d8181c003ba29499a9894d72b0b1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ae01066edb71d37dfdf8e12da8c444') in 0.049759 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006851 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan4.png
+  artifactKey: Guid(544d223a49a8ea644ad19e78580e20ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan4.png using Guid(544d223a49a8ea644ad19e78580e20ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c982f1a580b30e7f625a0d7835fd99') in 0.037620 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan3.png
+  artifactKey: Guid(f2555531252de95498b5c3b63c218298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan3.png using Guid(f2555531252de95498b5c3b63c218298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fa0ce4459d4b950d2d517ef376c558') in 0.041812 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan6.png
+  artifactKey: Guid(c26ee58081b4c8f4aaa83d1f8e063ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Fan/Fan6.png using Guid(c26ee58081b4c8f4aaa83d1f8e063ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0baeb9ca5727da42742e031ff489b90') in 0.040138 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.215310 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil
+  artifactKey: Guid(84b8e2ea46d71cf4e954498c4576232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil using Guid(84b8e2ea46d71cf4e954498c4576232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be44a56fc711319d53d46f632cf3cb88') in 0.010735 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107303 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil1.png
+  artifactKey: Guid(e640c42d4d8ccdf42955f578cc7724c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil1.png using Guid(e640c42d4d8ccdf42955f578cc7724c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4e1222b963844c8e1111bad36567f') in 0.041694 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil3.png
+  artifactKey: Guid(0297841f055749d47aee106bc95efdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil3.png using Guid(0297841f055749d47aee106bc95efdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f36533b9b375136ea6fa911e605c27f') in 0.037142 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil10.png
+  artifactKey: Guid(4f8ebe0df0dd9654cbf86f2c0c588a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil10.png using Guid(4f8ebe0df0dd9654cbf86f2c0c588a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef25410cfc51480ff989972a02b5e7a6') in 0.038369 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil9.png
+  artifactKey: Guid(2d236326494f6e144b549b459cde6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil9.png using Guid(2d236326494f6e144b549b459cde6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ec94a16a8a5336cdf69eb7684224f9') in 0.035135 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil5.png
+  artifactKey: Guid(d4d1cad4964dd6040a3c9df3456293d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil5.png using Guid(d4d1cad4964dd6040a3c9df3456293d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109acec7df777fdc6af9a4749045aae5') in 0.037142 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil7.png
+  artifactKey: Guid(b6809a13395352f479d9ad38559955cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil7.png using Guid(b6809a13395352f479d9ad38559955cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf2b2d160556ecaaa295ca735622b9c') in 0.035099 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil11.png
+  artifactKey: Guid(0ff49491e8f9bd44ba889fa93ee3febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Traps/Tesla Coil/TeslaCoil11.png using Guid(0ff49491e8f9bd44ba889fa93ee3febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466c5370eefde2e2a370799b207b03ba') in 0.036931 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.238899 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters
+  artifactKey: Guid(a03d23de622b8144eb04c436c2d949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters using Guid(a03d23de622b8144eb04c436c2d949e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79176193eafd577ab1a22f0f750f8900') in 0.010924 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.862213 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1
+  artifactKey: Guid(bdfc79e6527ff4a488eec01c01f63714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1 using Guid(bdfc79e6527ff4a488eec01c01f63714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c690c787ee91a96cdc6a9d263be7d6') in 0.010152 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.726668 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations
+  artifactKey: Guid(3b7de3ccb9a54824a9718598193b45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations using Guid(3b7de3ccb9a54824a9718598193b45a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0406da9314accd9b999d9e57d4965e') in 0.010338 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.696829 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full/Idle1.png
+  artifactKey: Guid(6e175e605bbaef146a4382f730be4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full/Idle1.png using Guid(6e175e605bbaef146a4382f730be4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f14a2548a2054f5bfaf00eb422187') in 0.035803 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full
+  artifactKey: Guid(65a203ed7cbfb654693f25ca11dbcbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full using Guid(65a203ed7cbfb654693f25ca11dbcbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97312b8738b9f80dec73abb3a1bebd8d') in 0.010461 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full/Idle4.png
+  artifactKey: Guid(9964b3421a7eb2346a97469d64dce9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/Lifty's Pixel Art Pack/Pixel Art Pack/Characters/1/PlayerAnimations/Idle_Full/Idle4.png using Guid(9964b3421a7eb2346a97469d64dce9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a569b13ec9c994a502c379f8493b8654') in 0.039928 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 48.242193 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_21.asset
+  artifactKey: Guid(aa510f805becb404e954a15915e4b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_21.asset using Guid(aa510f805becb404e954a15915e4b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2011bc7ba1e5ae4299c74417bc631627') in 0.069958 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_24.asset
+  artifactKey: Guid(a1a1ace5e09f6f04282942d861e8047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_24.asset using Guid(a1a1ace5e09f6f04282942d861e8047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5dd5b50dda24fd2177c6e69374e40f') in 0.066822 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_35.asset
+  artifactKey: Guid(ed3cfbbf807430a4285c7aac3078338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_35.asset using Guid(ed3cfbbf807430a4285c7aac3078338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af99d8655a22f4d8e597d9e44d3b9305') in 0.046958 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_29.asset
+  artifactKey: Guid(f573cd6c1b43ed4478bc7d2c9150f8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_29.asset using Guid(f573cd6c1b43ed4478bc7d2c9150f8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee67e4f5f245e00516b95f1c6c706ff') in 0.041487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_36.asset
+  artifactKey: Guid(17649bb05da6d7744afdc1c2862a35b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_36.asset using Guid(17649bb05da6d7744afdc1c2862a35b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32293d7d5d01bf3b9a02c4908f8b11a4') in 0.043660 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_41.asset
+  artifactKey: Guid(23809d087a2afc74793faf2c68f64043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_41.asset using Guid(23809d087a2afc74793faf2c68f64043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d6be1eaf10702fddbbe5619bc01c3') in 0.047933 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_37.asset
+  artifactKey: Guid(c57242db6cb6b2246b1d367560b34f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_37.asset using Guid(c57242db6cb6b2246b1d367560b34f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dc2cd3e2edc94f326536561e63a5ef') in 0.035268 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_33.asset
+  artifactKey: Guid(2a421f88a080ea54d85b4f56832d6241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_33.asset using Guid(2a421f88a080ea54d85b4f56832d6241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9151e0f5b3f92ffce44f33431cc49d6') in 0.037329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_48.asset
+  artifactKey: Guid(384cb8699c1596a47bfd6da7b7d6e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Treasure Hunters/Palm Tree Island (ArtBoard)_48.asset using Guid(384cb8699c1596a47bfd6da7b7d6e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63859c0c3e0c63671589dc8b33ab525d') in 0.040231 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
