@@ -19,7 +19,7 @@ public class UserManager : MonoBehaviour
     public void SetUsername() {
         if (usernameInput.text != null) {
             ScoreManager.instance.username = usernameInput.text;
-            GameManager.instance.ChangeScene("Niveau1");
+            GameManager.instance.ChangeScene("Level1");
         }
     }
 }
