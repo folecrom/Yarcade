@@ -106,9 +106,9 @@ public class PlayerController : MonoBehaviour
     public void OnJump()
     {
         if(IsGrounded() || bufferedJump || coyote || (jumpCounter < 1 && !IsWalled())) {
-        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-        animator.SetBool("IsJumping", true);
-        jumpCounter++;
+            rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            animator.SetBool("IsJumping", true);
+            jumpCounter++;
         }
         else if (IsWalled())
         {

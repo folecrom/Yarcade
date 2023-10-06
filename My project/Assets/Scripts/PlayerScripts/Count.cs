@@ -9,6 +9,10 @@ public class Count : MonoBehaviour
     public GameObject coinSprite;
     public GameObject coinSprite1;
     public GameObject coinSprite2;
+    public GameObject coins3;
+    public GameObject coins2;
+    public GameObject coins1;
+    
 
     private void Awake()
     {
@@ -23,14 +27,17 @@ public class Count : MonoBehaviour
         coinsCount += counte;
         if (coinsCount == 1)
         {
+            coins1.SetActive(false);
             coinSprite.SetActive(true);
         }
         else if (coinsCount == 2)
         {
+            coins2.SetActive(false);
             coinSprite1.SetActive(true);
         }
         else if (coinsCount == 3)
         {
+            coins3.SetActive(false);
             coinSprite2.SetActive(true);
         }
         else

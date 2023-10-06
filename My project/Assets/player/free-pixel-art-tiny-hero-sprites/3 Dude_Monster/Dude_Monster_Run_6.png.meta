@@ -155,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d7cc03b633a4e4f87beb3fbcd0b5a0
-      internalID: 625418600
+      spriteID: af436e52bd6512850800000000000000
+      internalID: 6350452448802780410
       vertices: []
       indices: 
       edges: []
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b841670ecd7cd448a8abdba601350b
-      internalID: 1219972883
+      spriteID: e9535fd8f5658ad44bac65d5c23477d7
+      internalID: -1976172207
       vertices: []
       indices: 
       edges: []
@@ -197,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9593c13ea3e3a6c458317fd998ee8c2c
-      internalID: -84233673
+      spriteID: bf433668f5eb5ca4ea5e555e0774933e
+      internalID: 906644870
       vertices: []
       indices: 
       edges: []
@@ -218,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c2bb13b09fde8488bf220a6dd6e9bd
-      internalID: 6349562
+      spriteID: 6604ec6790bc1f14580d25c8c71064e5
+      internalID: 1428587418
       vertices: []
       indices: 
       edges: []
@@ -239,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02e7665f84cdef46ab4f60cc477fb94
-      internalID: 998467326
+      spriteID: 2741a5b6a1d7c8146a75dafd070f0cb8
+      internalID: -981171250
       vertices: []
       indices: 
       edges: []
@@ -260,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06a9e74d8f387034cb6a1805bc72ffcf
-      internalID: -637072513
+      spriteID: 72f2d519da3b3bb4392304ff24e44dd5
+      internalID: 945022507
       vertices: []
       indices: 
       edges: []
@@ -269,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 12ec0d67eed1fbf41acb2770551556f0
     internalID: 0
     vertices: []
     indices: 
@@ -277,12 +277,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dude_Monster_Run_6_0: 625418600
-      Dude_Monster_Run_6_1: 1219972883
-      Dude_Monster_Run_6_2: -84233673
-      Dude_Monster_Run_6_3: 6349562
-      Dude_Monster_Run_6_4: 998467326
-      Dude_Monster_Run_6_5: -637072513
+      Dude_Monster_Run_6_0: 6350452448802780410
+      Dude_Monster_Run_6_1: -1976172207
+      Dude_Monster_Run_6_2: 906644870
+      Dude_Monster_Run_6_3: 1428587418
+      Dude_Monster_Run_6_4: -981171250
+      Dude_Monster_Run_6_5: 945022507
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
