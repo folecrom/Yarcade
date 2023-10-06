@@ -1,4 +1,16 @@
 {
-    "scores": [10,20,30,40,50],
-    "usernames": ["oui","ah","ok","peut","etre"]
+    "scores": [
+        67.0296630859375,
+        58.06755447387695,
+        43.02964401245117,
+        40.0,
+        50.0
+    ],
+    "usernames": [
+        "Ahrusa",
+        "Ouip",
+        "ouioui",
+        "peut",
+        "etre"
+    ]
 }

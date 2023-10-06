@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance {private set; get; }
+    public string lvl;
     private void Awake()
     {
         if(instance != null)
