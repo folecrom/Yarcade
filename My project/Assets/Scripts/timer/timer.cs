@@ -40,7 +40,7 @@ public class timer : MonoBehaviour
             // Comparaison avec le meilleur temps précédent
             float elapsedTime = Time.time - startTime;
             if (bestTime == 0)
-            {
+            {e
                 PlayerPrefs.DeleteKey("BestTime");
                 PlayerPrefs.SetFloat("BestTime", elapsedTime);
                 PlayerPrefs.Save();
