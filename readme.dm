@@ -1,21 +1,9 @@
-```## Welcome to our C# Project !
+```## Welcome to Yarcade !
 
 
 # Explanations :
 
-This project was created by three second year students of computer sciences. As part of our C# lessons, our final exam is a project which consists in the making of a video game working with the well-known software unity. 🎮
-Afficher plus
-message.txt
-4 Ko
-﻿
-```## Welcome to our C# Project !
-
-
-# Explanations :
-
-This project was created by three second year students of computer sciences. As part of our C# lessons, our final exam is a project which consists in the making of a video game working with the well-known software unity. 🎮
-
-Our game is a fighter which allows two players to compete against each other. By using either the keyboard or the controller, they can both choose one character to fight with. Obviously, the goal is to beat the other one with the few possibilities of attacks and defense. 🥊  
+This project was created by three third year students of computer sciences. As part of our C# lessons,It's a  project which consists in the making of a video game working with the well-known software unity.🎮  
 
 
 # Lore : 
