@@ -27,8 +27,6 @@ public class MenuPanel : MonoBehaviour
     private void UpdateState()
     {
         canvas.enabled = state;
-        //StopAllCoroutines();
-        //StartCoroutine(Animate(state));
 
         if(state) 
             controller.SetSelectedGameObject(selectedGameObject);  //si on est sur le panel

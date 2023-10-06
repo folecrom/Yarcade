@@ -16,16 +16,16 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsPaused)
+        if (IsPaused)                              //Si la variable est vrai                 
         {
-            pauseMenu.SetActive(true);
+            pauseMenu.SetActive(true);             //Ecran bloqué
             Time.timeScale = 0f;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
-        else
+        else                                       //Si la variable est fausse
         {
-            pauseMenu.SetActive(false);
+            pauseMenu.SetActive(false);            //Ecran débloqué 
             Time.timeScale = 1f;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;

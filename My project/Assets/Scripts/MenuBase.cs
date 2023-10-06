@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public enum PanelType
 {
     None,
-    Main,
+    Main,  //MainPanel
     Credits,
     Choixlvl,
    
@@ -17,13 +17,13 @@ public class MenuBase : MonoBehaviour
     [Header("Panels")]
 
     [SerializeField] private List<MenuPanel> panelsList = new List<MenuPanel>();
-    private Dictionary<PanelType, MenuPanel> panelsDict = new Dictionary<PanelType, MenuPanel>();
+    private Dictionary<PanelType, MenuPanel> panelsDict = new Dictionary<PanelType, MenuPanel>();  //dictionnaire avec variables PanelType
 
     [SerializeField] private EventSystem eventController; //permet à l'eventsystem la gestion des boutons selectionnés 
 
     private GameManager manager;
 
-    private void Start()
+    private void Start()                     
     {
         manager = GameManager.instance;
 
@@ -36,33 +36,34 @@ public class MenuBase : MonoBehaviour
             }
         }
 
-        OpenOnePanel(PanelType.Main);
+        OpenOnePanel(PanelType.Main);  //lancement du panel par défaut
     }
-
-    private void OpenOnePanel(PanelType _type)          //affiche le panel choisit et désactive les autres
+    public void OpenPanel(PanelType _type)  //prend la variable renseignée sur les panels
     {
-        foreach (var _panel in panelsList) _panel.ChangeState(false); 
-
-        if(_type != PanelType.None) panelsDict[_type].ChangeState(true);
+        OpenOnePanel(_type);  //exécute la fonction OpenOnePanel avec la variable _type 
     }
-
-    public void OpenPanel(PanelType _type)
+    
+    private void OpenOnePanel(PanelType _type)          //affiche le panel actuel et désactive les autres
     {
-        OpenOnePanel(_type);
+        foreach (var _panel in panelsList) _panel.ChangeState(false);   //permet la fermeture du panel ouvert
+
+        if(_type != PanelType.None) panelsDict[_type].ChangeState(true);  //permet l'ouverture du panel si le type 
+        
+        //du panel n'est pas "None" (MainPanel, Crédits, Choixlvl)
     }
-
-    public void ChangeScene(string _sceneName)
+    
+    public void ChangeScene(string _sceneName) // attribution du nom de la scene dans unity
     {
-        manager.ChangeScene(_sceneName);
+        manager.ChangeScene(_sceneName); // changement de scene apres un clique (Niveau 1, Niveau 2)
+    }
+    
+    public void SetSelectedGameObject(GameObject _element)   //naviguer dans les panels avec les touches
+    {
+        eventController.SetSelectedGameObject(_element); 
     }
     public void Quit()
     {
         manager.Quit();
-    }
-
-    public void SetSelectedGameObject(GameObject _element)   //naviguer dans les panels
-    {
-        eventController.SetSelectedGameObject(_element); 
     }
 }   
     
