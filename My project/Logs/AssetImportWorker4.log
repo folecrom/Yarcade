@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Ahru/code/unity/Hackathon/Yarcade/My project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64286
+Successfully changed project path to: C:/Users/Ahru/code/unity/Hackathon/Yarcade/My project
+C:/Users/Ahru/code/unity/Hackathon/Yarcade/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27716] Host "[IP] 192.168.64.1 [Port] 0 [Flags] 2 [Guid] 925799121 [EditorId] 925799121 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SSRN2OKM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27716] Host "[IP] 192.168.64.1 [Port] 0 [Flags] 2 [Guid] 925799121 [EditorId] 925799121 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SSRN2OKM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 167.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ahru/code/unity/Hackathon/Yarcade/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2021.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.30f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.30f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017036 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 456 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2142ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1499ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (667ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 128.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.324 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2325ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1986ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (898ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (119.7 KB). Loaded Objects now: 4833.
+Memory consumption went from 171.9 MB to 171.8 MB.
+Total: 4.751100 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.222800 ms MarkObjects: 3.825600 ms  DeleteObjects: 0.267700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2176ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1807ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1100ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4339 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 4849.
+Memory consumption went from 169.1 MB to 169.1 MB.
+Total: 4.900400 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.214100 ms MarkObjects: 4.063800 ms  DeleteObjects: 0.075000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2079ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1692ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (797ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (92.6 KB). Loaded Objects now: 4864.
+Memory consumption went from 169.1 MB to 169.0 MB.
+Total: 4.721100 ms (FindLiveObjects: 0.494800 ms CreateObjectMapping: 0.152500 ms MarkObjects: 4.006300 ms  DeleteObjects: 0.064600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 272168.192325 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_0.asset
+  artifactKey: Guid(bca4bfd26a67df74b99125381ebcb2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_0.asset using Guid(bca4bfd26a67df74b99125381ebcb2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8631a6ef64a836822d36693d38046552') in 0.185866 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_24.asset
+  artifactKey: Guid(5f322b9bbbb563a40a3ad475987d4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_24.asset using Guid(5f322b9bbbb563a40a3ad475987d4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6be5c41ca93c42a3246461e734f5e1') in 0.027213 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_18.asset
+  artifactKey: Guid(ebe0f74bc9bb0e342ba6e80a1c67e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_18.asset using Guid(ebe0f74bc9bb0e342ba6e80a1c67e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1913de7ad325cb966aad13ee952653b2') in 0.026673 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_17.asset
+  artifactKey: Guid(4a454149f13679e4fa0486ca6e8704c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_17.asset using Guid(4a454149f13679e4fa0486ca6e8704c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b281eea0887b0f5de596a13e8754452') in 0.028202 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_27.asset
+  artifactKey: Guid(8b6b7e034fcf91449a420dd661c1b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_27.asset using Guid(8b6b7e034fcf91449a420dd661c1b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c563d7d4a44adaffa9f26e17932ebd5') in 0.049466 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_14.asset
+  artifactKey: Guid(309704b24aecac54bb7981fa09907938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_14.asset using Guid(309704b24aecac54bb7981fa09907938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4096f6cf2559be72108154f28bd92ee3') in 0.029377 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_3.asset
+  artifactKey: Guid(51b46f32206e947438af2950e9215480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_3.asset using Guid(51b46f32206e947438af2950e9215480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e72f17a8c77681788f18fe039ac0c37') in 0.029833 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_11.asset
+  artifactKey: Guid(2436cafc69505ab4d90b7ada3d76aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_11.asset using Guid(2436cafc69505ab4d90b7ada3d76aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5082f97e053ce7e70df2a71b9b80c6be') in 0.034487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_32.asset
+  artifactKey: Guid(c4d0c61d974a4d44fb49899257f33478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_32.asset using Guid(c4d0c61d974a4d44fb49899257f33478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c603de9fe651092a0f7b748ea386db') in 0.029148 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_7.asset
+  artifactKey: Guid(4a1ba353173c6f740a769f48c2868bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_7.asset using Guid(4a1ba353173c6f740a769f48c2868bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5372088ca76e934d3a3a285a7d534455') in 0.032196 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_28.asset
+  artifactKey: Guid(7f44b24e9bb759f40a3764d66152ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_28.asset using Guid(7f44b24e9bb759f40a3764d66152ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af40a6e3de30d1a57ddb3a6430795e9') in 0.029219 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_12.asset
+  artifactKey: Guid(3b3d076275c472642883a96f53b294a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_12.asset using Guid(3b3d076275c472642883a96f53b294a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6070ecfe88ba097b8ce9d4f20bbe14') in 0.028941 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_9.asset
+  artifactKey: Guid(ebffe67d7d1b9be4e99faf416fab0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_9.asset using Guid(ebffe67d7d1b9be4e99faf416fab0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205362af0630e2cf4a112299fab37259') in 0.033135 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_6.asset
+  artifactKey: Guid(74ac1663ec834db45aefc2b17d6cd0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_6.asset using Guid(74ac1663ec834db45aefc2b17d6cd0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8479b514e6f606bbf4ebef72ae18c4') in 0.028995 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_22.asset
+  artifactKey: Guid(f2a92d0014e1c564399cf0a9fe5c9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_22.asset using Guid(f2a92d0014e1c564399cf0a9fe5c9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d5b874d2c1717fa2579078218aa98e') in 0.033134 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_16.asset
+  artifactKey: Guid(b5380176e4986d74dacd52d3af819ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_16.asset using Guid(b5380176e4986d74dacd52d3af819ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922824a56d85e550ca827eaded14f660') in 0.029770 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_23.asset
+  artifactKey: Guid(bdd2ddb82815cfe4d94b4dc61d40f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_23.asset using Guid(bdd2ddb82815cfe4d94b4dc61d40f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeaf36acd1ba55afe3ba8ba1cb903f9') in 0.029046 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 54.317696 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_34.asset
+  artifactKey: Guid(d746230b5ffa29843bda37860e7527f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_34.asset using Guid(d746230b5ffa29843bda37860e7527f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343def398c3bbdd6c9da10b2dc399c07') in 0.026388 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_40.asset
+  artifactKey: Guid(50cf9d2a18441db4db494917f90a8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_40.asset using Guid(50cf9d2a18441db4db494917f90a8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5a595fa54f4c6c581e4bef13655e61') in 0.027942 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_44.asset
+  artifactKey: Guid(8780d9ac3028cd84fb145de3918f2282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_44.asset using Guid(8780d9ac3028cd84fb145de3918f2282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a98e02c24ff54a217f1e1e1acca8108') in 0.035052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_43.asset
+  artifactKey: Guid(193b60e54340dc3408b07c665b384d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_43.asset using Guid(193b60e54340dc3408b07c665b384d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2c1515420d176f2c67b83ee9272c37') in 0.024857 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_53.asset
+  artifactKey: Guid(521bda86db5d7db40ae87ab7021903cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_53.asset using Guid(521bda86db5d7db40ae87ab7021903cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa41e46850f56eb1c529c627318e38') in 0.024221 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_46.asset
+  artifactKey: Guid(83069ed5c865bca4ba4d993e4744b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_46.asset using Guid(83069ed5c865bca4ba4d993e4744b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c38a263af383d93de8dfe2ecaabf736') in 0.030223 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_55.asset
+  artifactKey: Guid(832ba29ae04dd6b419d5675eb02cda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_55.asset using Guid(832ba29ae04dd6b419d5675eb02cda61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f07f049176c1ae6de8e7e207f67230') in 0.019382 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027964 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_56.asset
+  artifactKey: Guid(0ea0baa981ac48a438633241cec2c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_56.asset using Guid(0ea0baa981ac48a438633241cec2c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6260e2445ce727654273e222fbc815') in 0.022426 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_65.asset
+  artifactKey: Guid(6cb8df537fb8441498636c0d63c07274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_65.asset using Guid(6cb8df537fb8441498636c0d63c07274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b22cff368454cde1fe4cd4d0428b777') in 0.025433 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/asset map/tilemap/Temple Asset Pack_Test_60.asset
+  artifactKey: Guid(37830e61bac9137448c113adffe3d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/asset map/tilemap/Temple Asset Pack_Test_60.asset using Guid(37830e61bac9137448c113adffe3d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeca5e7361416689579009a9eec8a06') in 0.021365 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1573ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 503 unused Assets / (34.5 KB). Loaded Objects now: 4391.
+Memory consumption went from 157.5 MB to 157.5 MB.
+Total: 4.894300 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.375800 ms MarkObjects: 3.671100 ms  DeleteObjects: 0.401000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
